@@ -1,9 +1,9 @@
 # pands-problem-sheet README.md
 # author: Sarah McNelis
 
-#    **References from the following books:**
-###     - Sweigart, A 2015, *Automate The Boring Stuff with Python*, William Pollock, San Francisco.
-###     - VanderPlas, J 2016, *A Whirlwind Tour of Python*, O’Reilly Medica Inc, Sebastopol.
+# * **References from the following books:**
+### - Sweigart, A 2015, *Automate The Boring Stuff with Python*, William Pollock, San Francisco.
+### - VanderPlas, J 2016, *A Whirlwind Tour of Python*, O’Reilly Medica Inc, Sebastopol.
 
 # **1. bmi.py**
 ### - Using a string when calculating to differentiate where a string begins and ends (VanderPlas 2016, p. 17)
