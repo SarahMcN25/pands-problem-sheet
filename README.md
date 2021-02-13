@@ -1,7 +1,7 @@
 # pands-problem-sheet README.md
 # author: Sarah McNelis
 
-# * **References from the following books:**
+## **References from the following books:**
 ### - Sweigart, A 2015, *Automate The Boring Stuff with Python*, William Pollock, San Francisco.
 ### - VanderPlas, J 2016, *A Whirlwind Tour of Python*, O’Reilly Medica Inc, Sebastopol.
 
