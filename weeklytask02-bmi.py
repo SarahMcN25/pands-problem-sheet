@@ -1,20 +1,17 @@
 # this program inputs a person's height in cm and weight in kg
 # then outputs their bmi (weight divided by height) in meters squared
-# author: Sarah McNelis
-
-# need to use variable float instead of int 
-# the output implies there might be a float (decimal place)
+# Author: Sarah McNelis
 
 weight = float(input("Enter weight(kg):"))
-#print ('weight') to check code is working
+#print ('weight') 
 
 height = float(input("Enter height(cm):"))
-#print ('height') to check code is working
+#print ('height') 
 
 newHeight = float((height/100)**2)
-#print (newHeight) This converts height from cm to meters squared
+#print (newHeight)
 
 bmi = float(weight/newHeight)
-#print (bmi) to check calculations are working
+#print (bmi) 
 
 print ("BMI is: {}".format(bmi))
