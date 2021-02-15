@@ -26,3 +26,19 @@
 ### - > It uses a colon to indicate the start point (inclusive) and end point (non-inclusive) of the subarray (Sweigart 2015, p. 33)
 ### - Slicing outputs a new string by using parts of the old string (VanderPlas 2016, p. 94)
 ### - Using [::-2] means it will show me the full string every second value backwards 
+
+# **3. weeklytask04-collatz.py**
+### - A Boolean is a data type which only has two values > true and false (Sweigart 2015, p. 32)(VanderPlas 2016, p. 29)
+### - This program uses comparison operators such as not equal to (!=) which gives one of the boolean values true and false (VanderPlas 2016, p. 20, 21)
+### - > Comparison operators compare two values and evaluate down to a single Boolean value (Sweigart 2015, p. 33)
+### - This program uses math/arithmetic operators such as remainder, floor division, multiply and add (Sweigart 2015, p. 15)(VanderPlas 2016, p. 17, 18)
+### - using remainder identifies if the number is even or odd. If the remainder is equal to zero then it run the next piece of code.
+### - The while statement will run as long as the while statement's condition is true (Sweigart 2015, p. 45)
+### - Therefore by adding the statement 'while numberFrom != 1:' the loop will stop or be considered false once it reaches the number 1.
+### - The block following an if statement will run if the statement is true (Sweigart 2015, p. 38)
+### - The else block only runs if all the if and elif statments are false (VanderPlas 2016, p. 40)(Sweigart 2015, p. 39)
+### - This is how it differentiates the even from the odd numbers in this program. If it's true it will divide the even number. If false it will move to the else statement and run that calculation instead. 
+### - using append() will add the new values to the pointed list (Sweigart 2015, p. 89)(VanderPlas 2016, p. 15)
+### - In this program it will add the values from numberFrom to the designated list which is numList hense numlist.append(numberFrom)
+
+# **3. weeklytask05-     .py**
