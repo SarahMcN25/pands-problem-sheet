@@ -1,7 +1,7 @@
 # this program asks the user to input any positive integer
-# then outputs the succesive value of:
-# if even number its divided my two
-# if odd number its multiplied by three plus one
+# then outputs the succesive value of the following
+# if an even number its divided my two
+# if an odd number its multiplied by three plus one
 # Author: Sarah McNelis
 
 
