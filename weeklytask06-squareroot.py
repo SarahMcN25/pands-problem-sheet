@@ -18,3 +18,7 @@ def newtonSqrt(num):
 var = newtonSqrt(num)
 print ("The square root of {} is approx. {}".format(num, var))
 
+### need to come back to this. think i need a while loop in function
+### sqRoot * sqRoot should be equals to num?? 
+### how can I write this??? 
+
