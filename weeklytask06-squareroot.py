@@ -3,22 +3,19 @@
 # without using built in functions
 # Author: Sarah McNelis
 
-## https://www.school-for-champions.com/algebra/square_root_approx.htm#.YD5KOdNCfIW
-
-
-
 num = float(input("Please enter a positive number: "))
 
 def newtonSqrt(num):
-    a = float(num / 2)
-    sqRoot = float(((num / a) + a) / 2)
-    return sqRoot
-    
+    a = (num/4)
+    sqRoot = (((num / a) + a) / 2)
+    x = sqRoot * sqRoot
+    while x != num:
+        sqRoot2 = (((num / sqRoot) + sqRoot) /2)
+        return round(sqRoot2, 1)
+    else:
+        return round(sqRoot, 1)
+# used an educated guess to divide input num by 4. 
+# then while loop until square root ans multiplied by itself is equal to input num
 
 var = newtonSqrt(num)
-print ("The square root of {} is approx. {}".format(num, var))
-
-### need to come back to this. think i need a while loop in function
-### sqRoot * sqRoot should be equals to num?? 
-### how can I write this??? 
-
+print ("The square root of {} is approx. {}.".format(num, var))

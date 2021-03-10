@@ -8,7 +8,7 @@
 ### - <<https://www.w3schools.com/default.asp>>
 
 
-# **1. weeklytask02-bmi.py**
+# **weeklytask02-bmi.py**
 ### - Using a string when calculating to differentiate where a string begins and ends (Sweigart 2015, p. 17)
 ### - This allows the program to calculate the height from cm into meters squared before calculating the bmi
 ### - Using / for a true division which includes the decimal place (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18)
@@ -20,7 +20,7 @@
 ### - This is called >commenting out code (Sweigart 2015, p. 23) 
 
 
-# **2. weeklytask03-secondstring.py**
+# **weeklytask03-secondstring.py**
 ### - > A list is a value that contains multiple values in an ordered sequence (Sweigart 2015, p. 80)
 ### - Indexing is a means of getting a single value from the list (VanderPlas 2016, p. 33)
 ### - Python uses zero based indexing therefore the first value in the list is 0 and so on (Sweigart 2015, p. 80)(VanderPlas 2016, p. 32)
@@ -32,7 +32,7 @@
 ### - Using [::-2] means it will show me the full string every second value backwards 
 
 
-# **3. weeklytask04-collatz.py**
+# **weeklytask04-collatz.py**
 ### - A Boolean is a data type which only has two values > true and false (Sweigart 2015, p. 32)(VanderPlas 2016, p. 29)
 ### - This program uses comparison operators such as not equal to (!=) which gives one of the boolean values true and false (VanderPlas 2016, p. 20, 21)(Sweigart 2015, p. 33)
 ### - This program uses math/arithmetic operators such as remainder, floor division, multiply and add (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18)
@@ -45,7 +45,7 @@
 ### - In this program it will add the values from numberFrom to the designated list which is numList hense numlist.append(numberFrom)
 
 
-# **4. weeklytask05-weekday.py**
+# **weeklytask05-weekday.py**
 ### - >For loading built-in and third-party modules, Python provides the import statement (VanderPlas 2016, p. 66)
 ### - This program imports the datetime module (Sweigart 2015, p. 341)
 ### - This allows python to determine the current date information as date objects <<https://www.w3schools.com/python/python_datetime.asp>>
@@ -55,3 +55,22 @@
 ### - This program uses the if and else statements.
 ### - If the first statement is true the it will run the code. If it's false it will run the else statment (Sweigart 2015, p. 38, 39)(VanderPlas 2016, p. 40)
 ### - This is how the program determines if the current day is a weekend or weekday. 
+
+# **weeklytask06-squareroot.py**
+### - > A function is like a mini program (Sweigart 2015, p. 61)
+### - The code of this mini program/function is only executed when called (Sweigart 2015, p. 62)
+### - Functions are used to organise code and make it more readable and resuable (VanderPlas 2016, p. 41)
+### - There are two ways of using functions; def statements and lambda statements (VanderPlas 2016, p. 41)
+### - A def statment is useful for any type of function wheras a lambda statment is used for creating short anomoyous functions (VanderPlas 2016, p. 41)
+### - I have chosen to use a def statement as I want to define and organise my functions so they can be easily accessed and used again (VanderPlas 2016, p. 42)
+### - The variables that are written within a function only exist in that function (Sweigart 2015, p. 67)
+### - This is somehting that casused a bit of trouble when writing this program. Differiencating bwtween global scope vs local scope. Local scope being within a function. 
+### - > Code in global scope cannot use any local variables (Sweigart 2015, p. 67)
+### - In other words a variable within a funcation cannot be called on outside the function. One can only call the function itself. 
+### - > When an expression is used with a return statement, the return value is what the expression evaluates to (Sweigart 2015, p. 64)
+### - In other words you need to think about what you're asking and what the answer would be; the expression/argument and the answer/return value. 
+### - For this program I created my own function for calculating approximation of positive floating-point number's square root. 
+### - I based my code on Newton's formula; √ N ≈ ½(N/A + A) found at https://www.school-for-champions.com/algebrasquare_root_approx.htm#.YD5KOdNCfIW 
+### - The idea of Newton's method according to the above website is to use an estaminated guess for A and then repeadedly use the answer in the formula as A until the correct answer is obtained.
+### - In this program I decided to divide the input number by 4 as my educated guess.
+### - I used a while loop to continue the equation until the statement was true in which case the else block comes into effect (VanderPlas 2016, p. 40)(Sweigart 2015, p. 38, 39)  
