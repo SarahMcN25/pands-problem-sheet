@@ -6,6 +6,7 @@
 ### - Sweigart, A 2015, *Automate The Boring Stuff with Python*, William Pollock, San Francisco.
 ### - VanderPlas, J 2016, *A Whirlwind Tour of Python*, O’Reilly Medica Inc, Sebastopol.
 ### - <<https://www.w3schools.com/default.asp>>
+### - <<https://www.school-for-champions.com/algebra/square_root_approx.htm#.YEkLyU5xfIX>>
 
 
 # **weeklytask02-bmi.py**
@@ -70,7 +71,7 @@
 ### - > When an expression is used with a return statement, the return value is what the expression evaluates to (Sweigart 2015, p. 64)
 ### - In other words you need to think about what you're asking and what the answer would be; the expression/argument and the answer/return value. 
 ### - For this program I created my own function for calculating approximation of positive floating-point number's square root. 
-### - I based my code on Newton's formula; √ N ≈ ½(N/A + A) found at https://www.school-for-champions.com/algebrasquare_root_approx.htm#.YD5KOdNCfIW 
+### - I based my code on Newton's formula; √ N ≈ ½(N/A + A) found at https://www.school-for-champions.com/algebra/square_root_approx.htm#.YEkLyU5xfIX 
 ### - The idea of Newton's method according to the above website is to use an estaminated guess for A and then repeadedly use the answer in the formula as A until the correct answer is obtained.
 ### - In this program I decided to divide the input number by 4 as my educated guess.
 ### - I used a while loop to continue the equation until the statement was true in which case the else block comes into effect (VanderPlas 2016, p. 40)(Sweigart 2015, p. 38, 39)  
