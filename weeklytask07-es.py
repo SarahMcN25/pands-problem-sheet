@@ -13,6 +13,7 @@
     #print(letter)
        
 #option 2
+# https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/
 # Program to get letter count in a text file 
 # explit function to return the letter count 
 def letterFrequency(fileName, letter): 
