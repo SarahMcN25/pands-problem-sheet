@@ -71,7 +71,21 @@
 ### - > When an expression is used with a return statement, the return value is what the expression evaluates to (Sweigart 2015, p. 64)
 ### - In other words you need to think about what you're asking and what the answer would be; the expression/argument and the answer/return value. 
 ### - For this program I created my own function for calculating approximation of positive floating-point number's square root. 
-### - I based my code on Newton's formula; √ N ≈ ½(N/A + A) found at https://www.school-for-champions.com/algebra/square_root_approx.htm#.YEkLyU5xfIX 
+### - I based my code on Newton's formula; √ N ≈ ½(N/A + A) found at <<https://www.school-for-champions.com/algebra/square_root_approx.htm#.YEkLyU5xfIX>>
 ### - The idea of Newton's method according to the above website is to use an estaminated guess for A and then repeadedly use the answer in the formula as A until the correct answer is obtained.
 ### - In this program I decided to divide the input number by 4 as my educated guess.
 ### - I used a while loop to continue the equation until the statement was true in which case the else block comes into effect (VanderPlas 2016, p. 40)(Sweigart 2015, p. 38, 39)  
+
+# **weeklytask07-es.py**
+### - 
+
+# **weeklytask08-plottask.py**
+### - This was the most enjoyable task for me. We were told that plots can be a bit of a rabbit hole which I have learned to be true. And I definitely went down the rabbit hole! 
+### - I started off having a bit of trouble trying to figure out how I was going to plot three functions on one axis. I got inspiration from this website which brought my thought process back to basics <<https://www.kite.com/python/answers/how-to-make-multiple-plots-on-the-same-figure-in-matplotlib-in-python>>
+### - You need to plot an x-axis with a y-axis. So I decided to put the range on the x-axis. Then I broke down the functions to the ypoints1, 2 and 3. The x-axis stayed the same for all three functions but the y-axis changed. This is how I developed this plot. 
+### - Next I looked at line colors. I found this website which contains a list of named colors supported in matplotlib <<https://matplotlib.org/stable/gallery/color/named_colors.html>>
+### - This was quite useful when it came to color coordination and design. I played around with different colors until I found a sequence that I was happy with. 
+### - Then I started investigating different linesytles. I decied as there were three functions, they should have three different linestyles. For this I looked at the w3schools website. Here I learned about the five linestyles available in matplotlib. This webpage also gave interactive examples on how you can change colors and also the line thickness <<https://www.w3schools.com/python/matplotlib_line.asp>>
+### - After a bit more research I began putting a title on the plot and labelling the axis' <<https://www.tutorialexample.com/understand-matplotlib-fontdict-a-beginner-guide-matplotlib-tutorial/>>
+### - Then I played around with colors, font style, font size and weight. <<https://www.tutorialexample.com/understand-matplotlib-fontdict-a-beginner-guide-matplotlib-tutorial/>> this website has a quite a useful table of fontdict key and values that are used in python. 
+### - Following this I decided to put a legend on the plot. After a bit mroe exploration I found this website which give a substantial amount of detail regarding the parmeters around legends <<https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html>>. It was here I discovered how to position a legend and adjust the font size. 
