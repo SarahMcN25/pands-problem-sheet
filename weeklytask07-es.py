@@ -8,14 +8,15 @@
 # why?????????
 
 #option 1
-#with open("MobyD.txt", "rt") as f:
-    #letter = f.read().count("e")
-    #print(letter)
+with open("mbd.txt", "rt") as f:
+    letter = f.read().count("e")
+    print(letter)
        
 #option 2
 # https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/
 # Program to get letter count in a text file 
 # explit function to return the letter count 
+'''
 def letterFrequency(fileName, letter): 
     # open file in read mode 
     file = open(fileName, 'rt') 
@@ -28,4 +29,5 @@ def letterFrequency(fileName, letter):
   
   
 # call the function and display the letetr count 
-print(letterFrequency('moby-dick.txt', 'e')) 
+print(letterFrequency('mbd.txt', 'e')) 
+'''
