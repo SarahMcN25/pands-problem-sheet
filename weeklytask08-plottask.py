@@ -26,3 +26,4 @@ plt.ylabel('Functions', fontdict=font3)
 plt.title('Plot of Functions', fontdict=font1, loc='center') #loc to plot location of title
 plt.legend(loc='best', fontsize='large')
 plt.show()
+#plt.savefig('plottask.png')
