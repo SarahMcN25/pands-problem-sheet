@@ -8,10 +8,10 @@ weight = float(input("Enter weight(kg):"))
 height = float(input("Enter height(cm):"))
 #print ('height') 
 
-newHeight = float((height/100)**2)
+newHeight = ((height/100)**2)
 #print (newHeight)
 
-bmi = float(weight/newHeight)
+bmi = (weight/newHeight)
 #print (bmi) 
 
 print ("BMI is: {}".format(bmi))

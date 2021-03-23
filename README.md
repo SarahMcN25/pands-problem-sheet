@@ -1,53 +1,58 @@
-# PANDS-PROBLEM-SHEET README.MD
-# Author: Sarah McNelis  
+# **PANDS-PROBLEM-SHEET README.MD**
+## Author: Sarah McNelis  
 
 &nbsp; 
 
-## **REFERENCES AND RESOURCES USED:**
-### - Sweigart, A 2015, *Automate The Boring Stuff with Python*, William Pollock, San Francisco.
-### - VanderPlas, J 2016, *A Whirlwind Tour of  Python*, O’Reilly Medica Inc, Sebastopol.
-### - <<https://www.w3schools.com/default.asp>>
-### - <<https://www.kite.com/>> 
-### - <<https://www.tutorialexample.com/>> 
-### - <<https://matplotlib.org/stable/index.html>>
-### - <<https://www.geeksforgeeks.org/>>
-### - <<https://www.w3.org/>> 
-### - <<https://www.python.org/>>
-### - <<https://www.pitt.edu/~naraehan/python3/mbb12.html>>
-### - <<https://stackoverflow.com/>>
-### - <<https://manybooks.net/>>
-### - <<http://gutenberg.org/>>
-### - <<https://www.pythonforbeginners.com/>>
-### - <<https://www.pythontutorial.net/>>  
+### **List of references/resources used:**
+#### - Sweigart, A 2015, *Automate The Boring Stuff with Python*, William Pollock, San Francisco.
+#### - VanderPlas, J 2016, *A Whirlwind Tour of  Python*, O’Reilly Medica Inc, Sebastopol.
+#### - <<https://www.w3schools.com/default.asp>>
+#### - <<https://www.kite.com/>> 
+#### - <<https://www.tutorialexample.com/>> 
+#### - <<https://matplotlib.org/stable/index.html>>
+#### - <<https://www.geeksforgeeks.org/>>
+#### - <<https://www.w3.org/>> 
+#### - <<https://www.python.org/>>
+#### - <<https://www.pitt.edu/~naraehan/python3/mbb12.html>>
+#### - <<https://stackoverflow.com/>>
+#### - <<https://manybooks.net/>>
+#### - <<http://gutenberg.org/>>
+#### - <<https://www.pythonforbeginners.com/>>
+#### - <<https://www.pythontutorial.net/>>  
 
 &nbsp; 
 
-# **WEEKLYTASK02-BMI.PY**
-### - solution to week 02
-### - this is to calculate body mass index....
-### -  add references and code here
-### - Using a string when calculating to differentiate where a string begins and ends (Sweigart 2015, p. 17)
-### - This allows the program to calculate the height from cm into meters squared before calculating the bmi
-### - Using / for a true division which includes the decimal place (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18)
-### - Using ** for exponentiation which will calculate m squared (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18)
-### - Need to use float() instead of int() to allow for a decimal place in answer (VanderPlas 2016, p. 25)
-### - Originally used int which calculated incorrectly because it didn’t include the decimal place
-### - When developing the code I checked that it worked as I went along bit by bit
-### - I’ve left these in this program and put a # before them to remove them from the final code. 
-### - This is called >commenting out code (Sweigart 2015, p. 23)  
+### **BMI.PY**
+#### - This is my solution to week02 task. This program calculates a person's body mass index. 
+#### - In this program I suround my string with single or double quotes to differentiate where a string begins and ends (Sweigart 2015, p. 17). I put the question I wanted to be asked of the user within the quote marks. This is what will appear in the terminal.
+#### - It's important to use float() instead of int() in this program. This allows for a decimal place in answer which gives a more accurate final calcutation. (VanderPlas 2016, p. 25)
+#### - I origionally used int() in my code which calculated the bmi incorrectly because it didn’t consider that there might be decimal place/float and therefore was inaccurate.
+#### - Next I convert the height from from cm into meters squared. I do this by dividing the height by 100 and using exponentiation.
+#### - Using 2 astrics ** will perform the exponentiation calculation for us. (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18)
+#### - In other words it will raise the height in cm divided by 100 to the power of 2. (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18)
+#### - I used the / symbol for a true division which includes the decimal place or float of a number (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18). 
+#### - Now that the height has been converted into meters squared we can continue completing the bmi calcutation dividing weight by newHeight. 
+#### - Finally the program prints out a string with the bmi calculation included. 
+#### - When developing this program I checked that each variable worked correactly as I went along.
+#### - I have left some print statements in this program and have put a hash symbol # before them to remove them from the final code. This was just for my own benifet when developing the code.
+#### - This process is known as commenting out code (Sweigart 2015, p. 23)  
 
 &nbsp; 
 
-# **WEEKLYTASK03-SECONDSTRING.PY**
-### - > A list is a value that contains multiple values in an ordered sequence (Sweigart 2015, p. 80)
-### - Indexing is a means of getting a single value from the list (VanderPlas 2016, p. 33)
-### - Python uses zero based indexing therefore the first value in the list is 0 and so on (Sweigart 2015, p. 80)(VanderPlas 2016, p. 32)
-### - > Elements at the end of the list can be accessed with negative numbers, starting from -1 (VanderPlas 2016, p. 32) 
-### - This is what I used in this program to output the sentence backwards
-### - > Slicing is a means of accessing multiple values in sublists (VanderPlas 2016, p. 33) 
-### - > It uses a colon to indicate the start point (inclusive) and end point (non-inclusive) of the subarray (VanderPlas 2016, p. 33)
-### - Slicing outputs a new string by using parts of the old string (Sweigart 2015, p. 94) <<https://www.w3schools.com/python/python_strings_sclicing.asp>>
-### - Using [::-2] means it will show me the full string every second value backwards.  
+### **SECONDSTRING.PY**
+#### - This is my explaination for the week03 task. This program takes in a string and outputs that string every second letter in reverse order. 
+#### - The first step was asking the user to input a sentence. 
+#### - Getting every second letter from the sentence involves indexing.
+#### - Indexing is a means of getting a single value from the list (VanderPlas 2016, p. 33).
+#### - > A list is a value that contains multiple values in an ordered sequence (Sweigart 2015, p. 80).
+#### - Python uses zero based indexing therefore the first value in the list is 0 and so on (Sweigart 2015, p. 80)(VanderPlas 2016, p. 32).
+#### - > Elements at the end of the list can be accessed with negative numbers, starting from -1 (VanderPlas 2016, p. 32)
+#### - This is what I used in this program to output the sentence in reverse order. I do this by using -2 for every second element backwards. 
+#### - > Slicing is a means of accessing multiple values in sublists (VanderPlas 2016, p. 33) 
+#### - > It uses a colon to indicate the start point (inclusive) and end point (non-inclusive) of the subarray (VanderPlas 2016, p. 33)
+#### - Slicing outputs a new string by using parts of the old string (Sweigart 2015, p. 94). 
+#### - This website has a good tutorial on this. <<https://www.w3schools.com/python/python_strings_slicing.asp>> 
+#### - Using [::-2] means it will show me the full string every second value backwards. 
 
 &nbsp; 
 
