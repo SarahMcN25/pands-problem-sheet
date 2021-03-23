@@ -21,6 +21,9 @@
 
 
 # **WEEKLYTASK02-BMI.PY**
+### - solution to week 02
+### - this is to calculate body mass index....
+### -  add references and code here
 ### - Using a string when calculating to differentiate where a string begins and ends (Sweigart 2015, p. 17)
 ### - This allows the program to calculate the height from cm into meters squared before calculating the bmi
 ### - Using / for a true division which includes the decimal place (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18)
