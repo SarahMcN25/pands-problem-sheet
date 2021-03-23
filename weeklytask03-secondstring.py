@@ -1,8 +1,8 @@
-# this program inputs a string 
+# This program inputs a string 
 # then outputs every second letter of that string in reverse order
 # Author: Sarah McNelis
 
-# Use sentence: The quick brown fox jumps over the lazy dog.
+# Input the following sentence: The quick brown fox jumps over the lazy dog.
 
 sentence = input("Please enter a sentence:")
 print (sentence [::-2])

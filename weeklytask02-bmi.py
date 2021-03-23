@@ -1,4 +1,4 @@
-# this program inputs a person's height in cm and weight in kg
+# This program inputs a person's height in cm and weight in kg
 # then outputs their bmi (weight divided by height) in meters squared
 # Author: Sarah McNelis
 
