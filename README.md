@@ -1,6 +1,8 @@
 # PANDS-PROBLEM-SHEET README.MD
 # Author: Sarah McNelis  
 
+&nbsp; 
+
 ## **REFERENCES AND RESOURCES USED:**
 ### - Sweigart, A 2015, *Automate The Boring Stuff with Python*, William Pollock, San Francisco.
 ### - VanderPlas, J 2016, *A Whirlwind Tour of  Python*, O’Reilly Medica Inc, Sebastopol.
@@ -18,6 +20,8 @@
 ### - <<https://www.pythonforbeginners.com/>>
 ### - <<https://www.pythontutorial.net/>>  
 
+&nbsp; 
+
 # **WEEKLYTASK02-BMI.PY**
 ### - solution to week 02
 ### - this is to calculate body mass index....
@@ -32,6 +36,8 @@
 ### - I’ve left these in this program and put a # before them to remove them from the final code. 
 ### - This is called >commenting out code (Sweigart 2015, p. 23)  
 
+&nbsp; 
+
 # **WEEKLYTASK03-SECONDSTRING.PY**
 ### - > A list is a value that contains multiple values in an ordered sequence (Sweigart 2015, p. 80)
 ### - Indexing is a means of getting a single value from the list (VanderPlas 2016, p. 33)
@@ -42,6 +48,8 @@
 ### - > It uses a colon to indicate the start point (inclusive) and end point (non-inclusive) of the subarray (VanderPlas 2016, p. 33)
 ### - Slicing outputs a new string by using parts of the old string (Sweigart 2015, p. 94) <<https://www.w3schools.com/python/python_strings_sclicing.asp>>
 ### - Using [::-2] means it will show me the full string every second value backwards.  
+
+&nbsp; 
 
 # **WEEKLYTASK04-COLLATZ.PY**
 ### - A Boolean is a data type which only has two values > true and false (Sweigart 2015, p. 32)(VanderPlas 2016, p. 29)
@@ -55,6 +63,8 @@
 ### - using append() will add the new values to the pointed list (Sweigart 2015, p. 89)
 ### - In this program it will add the values from numberFrom to the designated list which is numList hense numlist.append(numberFrom).  
 
+&nbsp; 
+
 # **WEEKLYTASK05-WEEKDAY.PY**
 ### - >For loading built-in and third-party modules, Python provides the import statement (VanderPlas 2016, p. 66)
 ### - This program imports the datetime module (Sweigart 2015, p. 341)
@@ -65,6 +75,8 @@
 ### - This program uses the if and else statements.
 ### - If the first statement is true the it will run the code. If it's false it will run the else statment (Sweigart 2015, p. 38, 39)(VanderPlas 2016, p. 40)
 ### - This is how the program determines if the current day is a weekend or weekday.  
+
+&nbsp; 
 
 # **WEEKLYTASK06-SQUAREROOT.PY**
 ### - > A function is like a mini program (Sweigart 2015, p. 61)
@@ -84,6 +96,8 @@
 ### - The idea of Newton's method according to the above website is to use an estaminated guess for A and then repeadedly use the answer in the formula as A until the correct answer is obtained.
 ### - In this program I decided to divide the input number by 4 as my educated guess.
 ### - I used a while loop to continue the equation until the statement was true in which case the else block comes into effect (VanderPlas 2016, p. 40)(Sweigart 2015, p. 38, 39).  
+
+&nbsp; 
 
 # **WEEKLYTASK07-ES.PY**
 ### - For this task I got the moby-dick text file from <<http://gutenberg.org/ebooks/2701>>
@@ -105,7 +119,9 @@
 ### - Unicode is defined as a specification that aims to list every character used by human languages and give each character its own unique code. <<https://docs.python.org/3/howto/unicode.html>>
 ### - The following website explains that "utf-8" should be used for web content. <<https://www.w3.org/International/questions/qa-choosing-encodings>>
 ### - When opening the read I added encoding="utf-8" after the filename which decoded the file allowing the program to run.  
-<br />
+
+&nbsp; 
+
 # **WEEKLYTASK08-PLOTTASK.PY**
 ### - This was the most enjoyable task for me. We were told that plots can be a bit of a rabbit hole which I have learned to be true. And I definitely had a lot of fun exploring!
 ### - I started off having a bit of trouble trying to figure out how I was going to plot three functions on one axis. I got inspiration from this website which brought my thought process back to basics <<https://www.kite.com/python/answers/how-to-make-multiple-plots-on-the-same-figure-in-matplotlib-in-python>>
@@ -120,5 +136,3 @@
 ### - Then I played around with colors, font style, font size and weight for the title and labels. <<https://www.tutorialexample.com/understand-matplotlib-fontdict-a-beginner-guide-matplotlib-tutorial/>> this website has a quite a useful table of fontdict keys and values that are used in python. These keys include family(for font style), color, weight, size and stlye (normal/italic/oblique).
 ### - Following this I decided to put a legend on the plot. After a bit mroe exploration I found this website which give a substantial amount of detail regarding the parameters around legends <<https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html>>. It was here I discovered how to position a legend and adjust the font size, color and other parameters.
 ### - I have commeted out a bit of code at the end of this program which would save the plot to a file <<https://www.geeksforgeeks.org/how-to-save-a-plot-to-a-file-using-matplotlib/>>  
-
-testing  123 
