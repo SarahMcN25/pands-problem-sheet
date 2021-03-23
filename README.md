@@ -105,7 +105,7 @@
 ### - Unicode is defined as a specification that aims to list every character used by human languages and give each character its own unique code. <<https://docs.python.org/3/howto/unicode.html>>
 ### - The following website explains that "utf-8" should be used for web content. <<https://www.w3.org/International/questions/qa-choosing-encodings>>
 ### - When opening the read I added encoding="utf-8" after the filename which decoded the file allowing the program to run.  
-
+<br />
 # **WEEKLYTASK08-PLOTTASK.PY**
 ### - This was the most enjoyable task for me. We were told that plots can be a bit of a rabbit hole which I have learned to be true. And I definitely had a lot of fun exploring!
 ### - I started off having a bit of trouble trying to figure out how I was going to plot three functions on one axis. I got inspiration from this website which brought my thought process back to basics <<https://www.kite.com/python/answers/how-to-make-multiple-plots-on-the-same-figure-in-matplotlib-in-python>>
