@@ -1,9 +1,9 @@
 # **PANDS-PROBLEM-SHEET README.MD**
-### Author: Sarah McNelis  
+## Author: Sarah McNelis  
 
 &nbsp; 
 
-## **List of references/resources used:**
+## **LIST OF REFERENCES/RESOURCES USED:**
 #### - Sweigart, A 2015, *Automate The Boring Stuff with Python*, William Pollock, San Francisco.
 #### - VanderPlas, J 2016, *A Whirlwind Tour of  Python*, O’Reilly Medica Inc, Sebastopol.
 #### - <<https://www.geeksforgeeks.org/>>
@@ -32,7 +32,7 @@
 #### - It is important to use float() instead of int() in this program. This allows for a decimal place in answer which gives a more accurate final calculation (VanderPlas 2016, p. 25).
 #### - I originally used int() in my code which calculated the bmi incorrectly because it did not consider that there might be decimal place/float and therefore was inaccurate.
 #### - Next I convert the height from cm into meters squared. I do this by dividing the height by 100 and using exponentiation.
-#### - Using 2 astericks(**) will perform the exponentiation calculation for us (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18).
+#### - Using 2 asterisks(**) will perform the exponentiation calculation for us (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18).
 #### - In other words, it will raise the height in cm divided by 100 to the power of 2 (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18).
 #### - I used the / symbol for a true division which includes the decimal place or float of a number (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18). 
 #### - Now that the height has been converted into meters squared, we can continue completing the bmi calculation by dividing weight by the newHeight. 
