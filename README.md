@@ -26,7 +26,8 @@
 &nbsp; 
 
 ### **BMI.PY**
-#### - This is my solution to week02 task. This program calculates a person's body mass index. 
+#### - This is my solution to week02 task. 
+#### - This program calculates a person's body mass index. 
 #### - In this program I surround my string with single or double quotes to differentiate where a string begins and ends (Sweigart 2015, p. 17). I put the question I wanted to be asked of the user within the quote marks. This is what will appear in the terminal.
 #### - It's important to use float() instead of int() in this program. This allows for a decimal place in answer which gives a more accurate final calcutation (VanderPlas 2016, p. 25).
 #### - I origionally used int() in my code which calculated the bmi incorrectly because it didn’t consider that there might be decimal place/float and therefore was inaccurate.
@@ -43,7 +44,8 @@
 &nbsp; 
 
 ### **SECONDSTRING.PY**
-#### - This is my explaination for week03 task. This program takes in a string and outputs that string every second letter in reverse order. 
+#### - This is my explaination for week03 task. 
+#### - This program takes in a string and outputs that string every second letter in reverse order. 
 #### - The first step of this program asks the user to input a sentence. 
 #### - The next line of code is how the program outputs the sentence every second letter backwards.
 #### - > Slicing is a means of accessing multiple values in sublists (VanderPlas 2016, p. 33) 
@@ -61,7 +63,8 @@
 &nbsp; 
 
 ### **COLLATZ.PY**
-#### - This is how I responded to week04 task. This program asks the user to input any positive integer. Then outputs the succesive value of the following: if an even number it's divided my two or if it's an odd number it's multiplied by three plus one.
+#### - This is how I responded to week04 task. 
+#### - This program asks the user to input any positive integer. Then outputs the succesive value of the following: if an even number it's divided my two or if it's an odd number it's multiplied by three plus one.
 #### - To get the succesive values I created a list and add the numbers to that list. I do this by using a boolean expression to determine if the number is even or odd.
 #### - A Boolean is a data type which only has two values true and false. (Sweigart 2015, p. 32)(VanderPlas 2016, p. 29) <<https://realpython.com/python-boolean/>> <<https://www.w3schools.com/python/python_booleans.asp>>
 #### - #### - The while statement will run as long as the while statement's condition is true (Sweigart 2015, p. 45)
@@ -78,7 +81,8 @@
 &nbsp; 
 
 ### **WEEKDAY.PY**
-#### - This is a description of how I solved week05 task. This program outputs whether or not the cureent day is a weekday.
+#### - This is a description of how I solved week05 task. 
+#### - This program outputs whether or not the current day is a weekday.
 #### - The first step I took was creating the variable weekend which contains a list for Saturday and Sunday. I use this variable as part of an if statment. 
 #### - Next I needed to import the datetime module.
 #### - This allows python to determine the current date information as date objects <<https://www.w3schools.com/python/python_datetime.asp>> 
@@ -95,7 +99,8 @@
 &nbsp; 
 
 ### **SQUAREROOT.PY**
-#### - The following is an account of how I unravelled the task for week06. The purpose for this program is to take in a positive floating point number and outputs an approximation of it's square root without using built in functions. 
+#### - The following is an account of how I unravelled the task for week06. 
+#### - This program takes in a positive floating point number and outputs an approximation of it's square root without using built in functions. 
 #### - > A function is like a mini program (Sweigart 2015, p. 61).
 #### - The code of this mini program/function is only executed when called (Sweigart 2015, p. 62).
 #### - Functions are used to organise code and make it more readable and resuable (VanderPlas 2016, p. 41).
@@ -115,47 +120,50 @@
 #### - > When an expression is used with a return statement, the return value is what the expression evaluates to (Sweigart 2015, p. 64).
 #### - Therefore, I needed to think about what I was asking and what the answer would be; the expression/argument and the answer/return value. 
 #### - I also used the round() function in my return statement in oder to round the answer to 1 decimal place. If I wanted to round to 2 decimal places I would have input a 2 instead of 1.
-#### - The last step in this program is to call the function. The function won't do anything unless it is called <<https://www.w3schools.com/python/python_functions.asp>>
+#### - The last step in this program is to call the function. The function won't do anything unless it is called <<https://www.w3schools.com/python/python_functions.asp>>.
 
 &nbsp; 
 
-# **ES.PY**
-### - For this task I got the moby-dick text file from <<http://gutenberg.org/ebooks/2701>>
-### - I have chosen complete this task using a function. I've done this to give me the option to use this function again by importing it into another program.
-### - The instruction for this task was to call the filename from an argument on the command line. I discovered you need to first import the sys module. <<https://www.pythonforbeginners.com/system/python-sys-argv>>
-### - In this case the user enters in the filename on the command line while running the program. This creates a list of arguments that then run through the program. <<https://stackoverflow.com/questions/4117530/sys-argv1-meaning-in-script>>
-### - I have used: filename = sys.argv[1]. This means I want to use the filename of the first argument in the command line. 
-### - This program required the use of the string count method which allows it to count all the letter e's. <<https://www.w3schools.com/python/ref_string_count.asp>>
-### - I should note here that I interperted the task as if it wanted the number of lowercase e's.
-### - I also found some code on <<https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/>>
-### - This example inspired my own efforts for my program. It shows how you open a file in read mode, read it counting the amount of occurences an e was used. 
-### - This website also describes different methods of reading a file. I choose to used read() which reads in the full text into a string for manipulation. <<https://www.pythontutorial.net/python-basics/python-read-text-file/#:~:text=To%20read%20a%20text%20file%20in%20Python%2C%20you,the%20file%20using%20the%20file%20close%20%28%29%20method>>
-### - This task was quite challenging when I started to run my program. It brought me to do a lot of research on errors. 
-### - I kept getting the following error "UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 10533: character maps to <undefined>"
-### - At first I thought maybe it was an issue with the specific text file. So I found a different one from another website <<https://manybooks.net/titles/melvilleetext01moby11.html>>
-### - Again the same issue. I already knew it wasn't my code as I ran it using a test text file I created myself so I decided to google the error and started my research.
-### - These websites suggest that the text files may have a different encoding method to that of my system's default encoding. <<https://www.pitt.edu/~naraehan/python3/mbb12.html>> <<https://stackoverflow.com/questions/49562499/how-to-fix-unicodedecodeerror-charmap-codec-cant-decode-byte-0x9d-in-posit>>
-### - These two websites both suggest using an encoding switch which ellimate the error eg. encoding="utf-8". This stands for 8 bit unicode.
-### - Unicode is defined as a specification that aims to list every character used by human languages and give each character its own unique code. <<https://docs.python.org/3/howto/unicode.html>>
-### - The following website explains that "utf-8" should be used for web content. <<https://www.w3.org/International/questions/qa-choosing-encodings>>
-### - When opening the read I added encoding="utf-8" after the filename which decoded the file allowing the program to run.  
+### **ES.PY**
+#### - This section contains details about how I tackled the task from week07. 
+#### - This program reads a text file from the argument line and outputs how many e's it contains.
+#### - I have chosen complete this task using a function. I've done this to give myself the option of using this function again by importing it into another program (VanderPlas 2016, p. 42).
+#### - The instruction for this task was to call the filename from an argument on the command line. I discovered that in order to do this I needed to first import the sys module. <<https://www.pythonforbeginners.com/system/python-sys-argv>>
+#### - In this case the user enters in the filename on the command line while running the program. This creates a list of arguments that then run through the program <<https://stackoverflow.com/questions/4117530/sys-argv1-meaning-in-script>>.
+#### - Next I wrote filename = sys.argv[1]. This means I want to use the filename of the first argument in the command line. From here on I now only need to use the variable name; filename in order to call the text file.
+#### - After that I started the function where I open the text file in read mode <<https://docs.python.org/3/tutorial/inputoutput.html>>.
+#### - This program required the use of the string count method which allows it to count all the letter e's <<https://www.w3schools.com/python/ref_string_count.asp>>.
+#### - I should note here that I interperted the task as if it wanted the number of lowercase e's. It was not specifically specified but was written in the task brief as a lowercase e so this what I've done here.
+#### - This example inspired my own efforts for my program. It shows how you open a file in read mode, read it counting the amount of occurences an e was used <<https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/>>.
+#### - This website also describes different methods of reading a file. I choose to used read() which reads in the full text into a string for manipulation <<https://www.pythontutorial.net/python-basics/python-read-text-file/#:~:text=To%20read%20a%20text%20file%20in%20Python%2C%20you,the%20file%20using%20the%20file%20close%20%28%29%20method>>.
+#### - The last part of the function is using the return statement which as described in the previous task returns the value of the expression (Sweigart 2015, p. 64).
+#### - Again as I previously explained a function does nothing unless it is called which is the final part of this program <<https://www.w3schools.com/python/python_functions.asp>>.
+#### - This is where the task unexpectedly became quite challenging. I ran the program using the file I found on: <<http://gutenberg.org/ebooks/2701>>. And so the problems began.
+#### - I kept getting the following error "UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 10533: character maps to <undefined>".
+#### - At first I thought maybe it was an issue with the specific text file. So I found a different one from another website: <<https://manybooks.net/titles/melvilleetext01moby11.html>>
+#### - Ran the program again and got the same issue. I already knew it wasn't my code as I ran it using a test text file which I created myself. This is when I began researching errors.
+#### - These two websites suggested that the text files may have a different encoding methods to that of my system's default encoding <<https://www.pitt.edu/~naraehan/python3/mbb12.html>> <<https://stackoverflow.com/questions/49562499/how-to-fix-unicodedecodeerror-charmap-codec-cant-decode-byte-0x9d-in-posit>>.
+#### - The solution that was recommended from these two websites was to use the encoding switch: encoding="utf-8". This stands for 8 bit unicode.
+#### - Unicode is defined as a specification that aims to list every character used by human languages and give each character its own unique code <<https://docs.python.org/3/howto/unicode.html>>.
+#### - The following website explains that "utf-8" should be used for web content <<https://www.w3.org/International/questions/qa-choosing-encodings>>.
+#### - Based on this advise I added encoding="utf-8" when opeing the filename which decoded the text file allowing the program to run smoothly.  
 
 &nbsp; 
 
-# **WEEKLYTASK08-PLOTTASK.PY**
-### - This was the most enjoyable task for me. We were told that plots can be a bit of a rabbit hole which I have learned to be true. And I definitely had a lot of fun exploring!
-### - I started off having a bit of trouble trying to figure out how I was going to plot three functions on one axis. I got inspiration from this website which brought my thought process back to basics <<https://www.kite.com/python/answers/how-to-make-multiple-plots-on-the-same-figure-in-matplotlib-in-python>>
-### - You need to plot an x-axis with a y-axis. So I decided to put the range on the x-axis. Then I broke down the three functions to the ypoints1, 2 and 3. The x-axis stayed the same for all three functions but the y-axis changed. This is how I developed this plot. 
-### - W3schools has good tutorials on how to plot a line diagram which I also found quite useful <<https://www.w3schools.com/python/matplotlib_plotting.asp>>
-### - Next I looked at line colors. I found this website which contains a list of named colors supported in matplotlib <<https://matplotlib.org/stable/gallery/color/named_colors.html>>
-### - This was quite useful when it came to color coordination and design. I played around with different colors until I found a sequence that I was happy with. 
-### - As I discovered from this website base colors can be called using the first letter of the color. However, there are also colors from tableau palette and css colors which can be called by using the full name of the color.  
-### - After this I started investigating different linesytles. I decied as there were three functions, they should have three different linestyles. For this I looked at the w3schools website. Here I learned about the five linestyles available in matplotlib. This webpage also gave interactive examples on how you can change colors <<https://www.w3schools.com/python/matplotlib_line.asp>>
-### - It also describles how you can adjust the thickness of a line diagram using the keyword linewidth or lw <<https://www.w3schools.com/python/matplotlib_line.asp>>
-### - After even more research I began putting a title on the plot and labelling the axis' <<https://www.tutorialexample.com/understand-matplotlib-fontdict-a-beginner-guide-matplotlib-tutorial/>>
-### - Then I played around with colors, font style, font size and weight for the title and labels. <<https://www.tutorialexample.com/understand-matplotlib-fontdict-a-beginner-guide-matplotlib-tutorial/>> this website has a quite a useful table of fontdict keys and values that are used in python. These keys include family(for font style), color, weight, size and stlye (normal/italic/oblique).
-### - Following this I decided to put a legend on the plot. After a bit mroe exploration I found this website which give a substantial amount of detail regarding the parameters around legends <<https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html>>. It was here I discovered how to position a legend and adjust the font size, color and other parameters.
-### - I have commeted out a bit of code at the end of this program which would save the plot to a file <<https://www.geeksforgeeks.org/how-to-save-a-plot-to-a-file-using-matplotlib/>>  
-### NEED TO WRITE SOMEHTING ON IMPORTING NUMPY AND MATPLOTLIB HERE
+### **WEEKLYTASK08-PLOTTASK.PY**
+#### - This was the most enjoyable task for me. We were told that plots can be a bit of a rabbit hole which I have learned to be true. And I definitely had a lot of fun exploring!
+#### - I started off having a bit of trouble trying to figure out how I was going to plot three functions on one axis. I got inspiration from this website which brought my thought process back to basics <<https://www.kite.com/python/answers/how-to-make-multiple-plots-on-the-same-figure-in-matplotlib-in-python>>
+#### - You need to plot an x-axis with a y-axis. So I decided to put the range on the x-axis. Then I broke down the three functions to the ypoints1, 2 and 3. The x-axis stayed the same for all three functions but the y-axis changed. This is how I developed this plot. 
+#### - W3schools has good tutorials on how to plot a line diagram which I also found quite useful <<https://www.w3schools.com/python/matplotlib_plotting.asp>>
+#### - Next I looked at line colors. I found this website which contains a list of named colors supported in matplotlib <<https://matplotlib.org/stable/gallery/color/named_colors.html>>
+#### - This was quite useful when it came to color coordination and design. I played around with different colors until I found a sequence that I was happy with. 
+#### - As I discovered from this website base colors can be called using the first letter of the color. However, there are also colors from tableau palette and css colors which can be called by using the full name of the color.  
+#### - After this I started investigating different linesytles. I decied as there were three functions, they should have three different linestyles. For this I looked at the w3schools website. Here I learned about the five linestyles available in matplotlib. This webpage also gave interactive examples on how you can change colors <<https://www.w3schools.com/python/matplotlib_line.asp>>
+#### - It also describles how you can adjust the thickness of a line diagram using the keyword linewidth or lw <<https://www.w3schools.com/python/matplotlib_line.asp>>
+#### - After even more research I began putting a title on the plot and labelling the axis' <<https://www.tutorialexample.com/understand-matplotlib-fontdict-a-beginner-guide-matplotlib-tutorial/>>
+#### - Then I played around with colors, font style, font size and weight for the title and labels. <<https://www.tutorialexample.com/understand-matplotlib-fontdict-a-beginner-guide-matplotlib-tutorial/>> this website has a quite a useful table of fontdict keys and values that are used in python. These keys include family(for font style), color, weight, size and stlye (normal/italic/oblique).
+#### - Following this I decided to put a legend on the plot. After a bit mroe exploration I found this website which give a substantial amount of detail regarding the parameters around legends <<https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html>>. It was here I discovered how to position a legend and adjust the font size, color and other parameters.
+#### - I have commeted out a bit of code at the end of this program which would save the plot to a file <<https://www.geeksforgeeks.org/how-to-save-a-plot-to-a-file-using-matplotlib/>>  
+#### NEED TO WRITE SOMEHTING ON IMPORTING NUMPY AND MATPLOTLIB HERE
 
 ### NEED SOMETHING FROM REAL PYTHON TOO 
