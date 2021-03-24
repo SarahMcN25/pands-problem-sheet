@@ -6,22 +6,22 @@
 ## **List of references/resources used:**
 #### - Sweigart, A 2015, *Automate The Boring Stuff with Python*, William Pollock, San Francisco.
 #### - VanderPlas, J 2016, *A Whirlwind Tour of  Python*, O’Reilly Medica Inc, Sebastopol.
-#### - <<https://www.w3schools.com/default.asp>>
-#### - <<https://www.kite.com/>> 
-#### - <<https://www.tutorialexample.com/>> 
-#### - <<https://matplotlib.org/stable/index.html>>
 #### - <<https://www.geeksforgeeks.org/>>
-#### - <<https://www.w3.org/>> 
-#### - <<https://www.python.org/>>
-#### - <<https://www.pitt.edu/~naraehan/python3/mbb12.html>>
-#### - <<https://www.math.ubc.ca/>>
-#### - <<https://stackoverflow.com/>>
-#### - <<https://manybooks.net/>>
 #### - <<http://gutenberg.org/>>
+#### - <<https://www.kite.com/>> 
+#### - <<https://manybooks.net/>>
+#### - <<https://www.math.ubc.ca/>>
+#### - <<https://matplotlib.org/stable/index.html>>
+#### - <<https://www.pitt.edu/~naraehan/python3/mbb12.html>> 
 #### - <<https://www.pythonforbeginners.com/>>
-#### - <<https://www.pythontutorial.net/>>  
-#### - <<https://www.school-for-champions.com/default.htm#.YFuLr9JxfIU>>
+#### - <<https://www.python.org/>>
+#### - <<https://www.pythontutorial.net/>> 
 #### - <<https://realpython.com/>>
+#### - <<https://www.school-for-champions.com/default.htm#.YFuLr9JxfIU>>
+#### - <<https://stackoverflow.com/>>
+#### - <<https://www.tutorialexample.com/>> 
+#### - <<https://www.w3schools.com/default.asp>>
+#### - <<https://www.w3.org/>> 
 
 &nbsp; 
 
