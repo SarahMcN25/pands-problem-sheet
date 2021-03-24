@@ -1,9 +1,9 @@
 # **PANDS-PROBLEM-SHEET README.MD**
-## Author: Sarah McNelis  
+### Author: Sarah McNelis  
 
 &nbsp; 
 
-### **List of references/resources used:**
+## **List of references/resources used:**
 #### - Sweigart, A 2015, *Automate The Boring Stuff with Python*, William Pollock, San Francisco.
 #### - VanderPlas, J 2016, *A Whirlwind Tour of  Python*, O’Reilly Medica Inc, Sebastopol.
 #### - <<https://www.w3schools.com/default.asp>>
@@ -25,7 +25,7 @@
 
 &nbsp; 
 
-### **BMI.PY**
+## **BMI.PY**
 #### - This is my solution to week02 task. 
 #### - This program calculates a person's body mass index. 
 #### - In this program I surround my string with single or double quotes to differentiate where a string begins and ends (Sweigart 2015, p. 17). I put the question I wanted to be asked of the user within the quote marks. This is what will appear in the terminal.
@@ -43,7 +43,7 @@
 
 &nbsp; 
 
-### **SECONDSTRING.PY**
+## **SECONDSTRING.PY**
 #### - This is my explaination for week03 task. 
 #### - This program takes in a string and outputs that string every second letter in reverse order. 
 #### - The first step of this program asks the user to input a sentence. 
@@ -62,7 +62,7 @@
 
 &nbsp; 
 
-### **COLLATZ.PY**
+## **COLLATZ.PY**
 #### - This is how I responded to week04 task. 
 #### - This program asks the user to input any positive integer. Then outputs the succesive value of the following: if an even number it's divided my two or if it's an odd number it's multiplied by three plus one.
 #### - To get the succesive values I created a list and add the numbers to that list. I do this by using a boolean expression to determine if the number is even or odd.
@@ -80,7 +80,7 @@
 
 &nbsp; 
 
-### **WEEKDAY.PY**
+## **WEEKDAY.PY**
 #### - This is a description of how I solved week05 task. 
 #### - This program outputs whether or not the current day is a weekday.
 #### - The first step I took was creating the variable weekend which contains a list for Saturday and Sunday. I use this variable as part of an if statment. 
@@ -98,7 +98,7 @@
 
 &nbsp; 
 
-### **SQUAREROOT.PY**
+## **SQUAREROOT.PY**
 #### - The following is an account of how I unravelled the task for week06. 
 #### - This program takes in a positive floating point number and outputs an approximation of it's square root without using built in functions. 
 #### - > A function is like a mini program (Sweigart 2015, p. 61).
@@ -124,7 +124,7 @@
 
 &nbsp; 
 
-### **ES.PY**
+## **ES.PY**
 #### - This section contains details about how I tackled the task from week07. 
 #### - This program reads a text file from the argument line and outputs how many e's it contains.
 #### - I have chosen complete this task using a function. I've done this to give myself the option of using this function again by importing it into another program (VanderPlas 2016, p. 42).
@@ -146,24 +146,25 @@
 #### - The solution that was recommended from these two websites was to use the encoding switch: encoding="utf-8". This stands for 8 bit unicode.
 #### - Unicode is defined as a specification that aims to list every character used by human languages and give each character its own unique code <<https://docs.python.org/3/howto/unicode.html>>.
 #### - The following website explains that "utf-8" should be used for web content <<https://www.w3.org/International/questions/qa-choosing-encodings>>.
-#### - Based on this advise I added encoding="utf-8" when opeing the filename which decoded the text file allowing the program to run smoothly.  
+#### - Based on this advise I added (encoding="utf-8") when opeing the filename which decoded the text file allowing the program to run smoothly.  
 
 &nbsp; 
 
-### **WEEKLYTASK08-PLOTTASK.PY**
-#### - This was the most enjoyable task for me. We were told that plots can be a bit of a rabbit hole which I have learned to be true. And I definitely had a lot of fun exploring!
-#### - I started off having a bit of trouble trying to figure out how I was going to plot three functions on one axis. I got inspiration from this website which brought my thought process back to basics <<https://www.kite.com/python/answers/how-to-make-multiple-plots-on-the-same-figure-in-matplotlib-in-python>>
-#### - You need to plot an x-axis with a y-axis. So I decided to put the range on the x-axis. Then I broke down the three functions to the ypoints1, 2 and 3. The x-axis stayed the same for all three functions but the y-axis changed. This is how I developed this plot. 
-#### - W3schools has good tutorials on how to plot a line diagram which I also found quite useful <<https://www.w3schools.com/python/matplotlib_plotting.asp>>
-#### - Next I looked at line colors. I found this website which contains a list of named colors supported in matplotlib <<https://matplotlib.org/stable/gallery/color/named_colors.html>>
+## **PLOTTASK.PY**
+#### - This is my description of the final task from week08.
+#### - This program displays a plot of the functions: f(x)=x, g(x)=x² and h(x)=x³, in range [0, 4], on one set of axes.
+#### - This was the most enjoyable task for me. We were told that plots can be a bit of a rabbit hole which I have learned to be very true. And I definitely had a lot of fun exploring!
+#### - The first step was importing both numpy and matplotlib for using arrays and plotting <<https://www.w3schools.com/python/numpy/numpy_intro.asp>> <<https://www.w3schools.com/python/matplotlib_pyplot.asp>>.
+#### - Next I started having a bit of trouble trying to figure out how I was going to plot three functions on one axis. I got inspiration from this website which brought my thought process back to basics <<https://www.kite.com/python/answers/how-to-make-multiple-plots-on-the-same-figure-in-matplotlib-in-python>>.
+#### - I needed to plot an x-axis with a y-axis. So I put the range on the x-axis. Then I broke down the three functions to the ypoints1, 2 and 3. The x-axis(range) stays the same for all three functions but the y-axis differs. This is how I developed this plot. 
+#### - W3schools has good tutorials on how to plot a line diagram which I found quite useful <<https://www.w3schools.com/python/matplotlib_plotting.asp>>.
+#### - After that I looked at line colors. I found this website which contains a list of named colors supported in matplotlib <<https://matplotlib.org/stable/gallery/color/named_colors.html>>. Plently of choice here.
 #### - This was quite useful when it came to color coordination and design. I played around with different colors until I found a sequence that I was happy with. 
-#### - As I discovered from this website base colors can be called using the first letter of the color. However, there are also colors from tableau palette and css colors which can be called by using the full name of the color.  
-#### - After this I started investigating different linesytles. I decied as there were three functions, they should have three different linestyles. For this I looked at the w3schools website. Here I learned about the five linestyles available in matplotlib. This webpage also gave interactive examples on how you can change colors <<https://www.w3schools.com/python/matplotlib_line.asp>>
-#### - It also describles how you can adjust the thickness of a line diagram using the keyword linewidth or lw <<https://www.w3schools.com/python/matplotlib_line.asp>>
-#### - After even more research I began putting a title on the plot and labelling the axis' <<https://www.tutorialexample.com/understand-matplotlib-fontdict-a-beginner-guide-matplotlib-tutorial/>>
-#### - Then I played around with colors, font style, font size and weight for the title and labels. <<https://www.tutorialexample.com/understand-matplotlib-fontdict-a-beginner-guide-matplotlib-tutorial/>> this website has a quite a useful table of fontdict keys and values that are used in python. These keys include family(for font style), color, weight, size and stlye (normal/italic/oblique).
+#### - As I discovered from this website base colors can be called using the first letter of the color. However, there are also colors from the tableau palette and css colors which can be called by using the full name of the color.  
+#### - Subsequently, I started investigating different linesytles. I decied as there were three functions, they should have three different linestyles. For this I looked at the w3schools website. Here I learned about the five linestyles available in matplotlib. This webpage also gives interactive examples on how you can change line colors <<https://www.w3schools.com/python/matplotlib_line.asp>>.
+#### - It also describles how you can adjust the thickness of a line diagram using the keyword linewidth or lw <<https://www.w3schools.com/python/matplotlib_line.asp>>.
+#### - After even more research I began putting a title on the plot and labelling the axis' which I discovered how to do here: <<https://www.tutorialexample.com/understand-matplotlib-fontdict-a-beginner-guide-matplotlib-tutorial/>>.
+#### - Then I played around with colors, font style, font size and weight for the title and labels. This website has a quite a useful table of fontdict keys and values that are used in python. These keys include family(for font style), color, weight, size and stlye (normal/italic/oblique) <<https://www.tutorialexample.com/understand-matplotlib-fontdict-a-beginner-guide-matplotlib-tutorial/>>.
 #### - Following this I decided to put a legend on the plot. After a bit mroe exploration I found this website which give a substantial amount of detail regarding the parameters around legends <<https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html>>. It was here I discovered how to position a legend and adjust the font size, color and other parameters.
-#### - I have commeted out a bit of code at the end of this program which would save the plot to a file <<https://www.geeksforgeeks.org/how-to-save-a-plot-to-a-file-using-matplotlib/>>  
-#### NEED TO WRITE SOMEHTING ON IMPORTING NUMPY AND MATPLOTLIB HERE
-
-### NEED SOMETHING FROM REAL PYTHON TOO 
+#### - All of this is completed using the format plt.plot(x, y), plt.xlabel, plt.legend, plt.title and so on. This can be found on w3schools: <<https://www.w3schools.com/python/matplotlib_plotting.asp>>
+#### - Finally the program shows the plot I have created. There is a line of code at the end of this program which would save the plot to a png file but you can either show a plot or save it but you cannot do both so I have commented it out of my code for the purpose of this task  <<https://www.geeksforgeeks.org/how-to-save-a-plot-to-a-file-using-matplotlib/>>. 
