@@ -14,97 +14,112 @@
 #### - <<https://www.w3.org/>> 
 #### - <<https://www.python.org/>>
 #### - <<https://www.pitt.edu/~naraehan/python3/mbb12.html>>
+#### - <<https://www.math.ubc.ca/>>
 #### - <<https://stackoverflow.com/>>
 #### - <<https://manybooks.net/>>
 #### - <<http://gutenberg.org/>>
 #### - <<https://www.pythonforbeginners.com/>>
 #### - <<https://www.pythontutorial.net/>>  
+#### - <<https://www.school-for-champions.com/default.htm#.YFuLr9JxfIU>>
+#### - <<https://realpython.com/>>
 
 &nbsp; 
 
 ### **BMI.PY**
 #### - This is my solution to week02 task. This program calculates a person's body mass index. 
-#### - In this program I suround my string with single or double quotes to differentiate where a string begins and ends (Sweigart 2015, p. 17). I put the question I wanted to be asked of the user within the quote marks. This is what will appear in the terminal.
-#### - It's important to use float() instead of int() in this program. This allows for a decimal place in answer which gives a more accurate final calcutation. (VanderPlas 2016, p. 25)
+#### - In this program I surround my string with single or double quotes to differentiate where a string begins and ends (Sweigart 2015, p. 17). I put the question I wanted to be asked of the user within the quote marks. This is what will appear in the terminal.
+#### - It's important to use float() instead of int() in this program. This allows for a decimal place in answer which gives a more accurate final calcutation (VanderPlas 2016, p. 25).
 #### - I origionally used int() in my code which calculated the bmi incorrectly because it didn’t consider that there might be decimal place/float and therefore was inaccurate.
 #### - Next I convert the height from from cm into meters squared. I do this by dividing the height by 100 and using exponentiation.
-#### - Using 2 astrics ** will perform the exponentiation calculation for us. (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18)
-#### - In other words it will raise the height in cm divided by 100 to the power of 2. (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18)
+#### - Using 2 astrics ** will perform the exponentiation calculation for us (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18).
+#### - In other words it will raise the height in cm divided by 100 to the power of 2 (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18).
 #### - I used the / symbol for a true division which includes the decimal place or float of a number (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18). 
 #### - Now that the height has been converted into meters squared we can continue completing the bmi calcutation dividing weight by newHeight. 
 #### - Finally the program prints out a string with the bmi calculation included. 
 #### - When developing this program I checked that each variable worked correactly as I went along.
 #### - I have left some print statements in this program and have put a hash symbol # before them to remove them from the final code. This was just for my own benifet when developing the code.
-#### - This process is known as commenting out code (Sweigart 2015, p. 23)  
+#### - This process is known as commenting out code (Sweigart 2015, p. 23).  
 
 &nbsp; 
 
 ### **SECONDSTRING.PY**
-#### - This is my explaination for the week03 task. This program takes in a string and outputs that string every second letter in reverse order. 
-#### - The first step was asking the user to input a sentence. 
+#### - This is my explaination for week03 task. This program takes in a string and outputs that string every second letter in reverse order. 
+#### - The first step of this program asks the user to input a sentence. 
+#### - The next line of code is how the program outputs the sentence every second letter backwards.
+#### - > Slicing is a means of accessing multiple values in sublists (VanderPlas 2016, p. 33) 
+#### - > It uses a colon to indicate the start point (inclusive) and end point (non-inclusive) of the subarray (VanderPlas 2016, p. 33)
+#### - Slicing outputs a new string by using parts of the old string (Sweigart 2015, p. 94). 
+#### - This website has a good tutorial on slicing. <<https://www.w3schools.com/python/python_strings_slicing.asp>> 
 #### - Getting every second letter from the sentence involves indexing.
 #### - Indexing is a means of getting a single value from the list (VanderPlas 2016, p. 33).
 #### - > A list is a value that contains multiple values in an ordered sequence (Sweigart 2015, p. 80).
 #### - Python uses zero based indexing therefore the first value in the list is 0 and so on (Sweigart 2015, p. 80)(VanderPlas 2016, p. 32).
-#### - > Elements at the end of the list can be accessed with negative numbers, starting from -1 (VanderPlas 2016, p. 32)
+#### - > Elements at the end of the list can be accessed with negative numbers, starting from -1 (VanderPlas 2016, p. 32). <<https://realpython.com/lessons/indexing-and-slicing/>>
 #### - This is what I used in this program to output the sentence in reverse order. I do this by using -2 for every second element backwards. 
-#### - > Slicing is a means of accessing multiple values in sublists (VanderPlas 2016, p. 33) 
-#### - > It uses a colon to indicate the start point (inclusive) and end point (non-inclusive) of the subarray (VanderPlas 2016, p. 33)
-#### - Slicing outputs a new string by using parts of the old string (Sweigart 2015, p. 94). 
-#### - This website has a good tutorial on this. <<https://www.w3schools.com/python/python_strings_slicing.asp>> 
-#### - Using [::-2] means it will show me the full string every second value backwards. 
+#### - Using the format; [::-2] means it will show me the full string every second value backwards. 
 
 &nbsp; 
 
-# **WEEKLYTASK04-COLLATZ.PY**
-### - A Boolean is a data type which only has two values > true and false (Sweigart 2015, p. 32)(VanderPlas 2016, p. 29)
-### - This program uses comparison operators such as not equal to (!=) which gives one of the boolean values true and false (VanderPlas 2016, p. 20, 21)(Sweigart 2015, p. 33)
-### - This program uses math/arithmetic operators such as remainder, floor division, multiply and add (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18)
-### - using remainder identifies if the number is even or odd. If the remainder is equal to zero then it run the next piece of code.
-### - The while statement will run as long as the while statement's condition is true (Sweigart 2015, p. 45)
-### - Therefore by adding the statement 'while numberFrom != 1:' the loop will stop or be considered false once it reaches the number 1.
-### - The block following an if statement will run if the statement is true (Sweigart 2015, p. 38)
-### - The else block only runs if all the if and elif statments are false (VanderPlas 2016, p. 40)(Sweigart 2015, p. 39)
-### - using append() will add the new values to the pointed list (Sweigart 2015, p. 89)
-### - In this program it will add the values from numberFrom to the designated list which is numList hense numlist.append(numberFrom).  
+### **COLLATZ.PY**
+#### - This is how I responded to week04 task. This program asks the user to input any positive integer. Then outputs the succesive value of the following: if an even number it's divided my two or if it's an odd number it's multiplied by three plus one.
+#### - To get the succesive values I created a list and add the numbers to that list. I do this by using a boolean expression to determine if the number is even or odd.
+#### - A Boolean is a data type which only has two values true and false. (Sweigart 2015, p. 32)(VanderPlas 2016, p. 29) <<https://realpython.com/python-boolean/>> <<https://www.w3schools.com/python/python_booleans.asp>>
+#### - #### - The while statement will run as long as the while statement's condition is true (Sweigart 2015, p. 45)
+#### - Therefore by adding the statement 'while numberFrom != 1:' the loop will stop or be considered false once the number reaches 1.
+#### - This program uses comparison operators such as not equal to (!=) which gives one of the boolean values true and false (VanderPlas 2016, p. 20, 21)(Sweigart 2015, p. 33).
+#### - The block following an if statement will run if the statement is true (Sweigart 2015, p. 38).
+#### - The else block only runs if all the if and elif statments are false (VanderPlas 2016, p. 40)(Sweigart 2015, p. 39).
+#### - Using remainder (%) identifies if the number is even or odd. If the remainder is equal to zero/true then it will run the if statement otherwise it will jump and run the else statement. 
+#### - This program uses math/arithmetic operators to perform the calculations. For example remainder(%), floor division(//), multiply(*) and add(+) (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18).
+#### - Using append() will add the new values to the pointed list (Sweigart 2015, p. 89) <<https://www.w3schools.com/python/ref_list_append.asp>> 
+#### - In this program it will add the values from numberFrom to the designated list which is numList hense numlist.append(numberFrom).  
+#### - Finally the last step of the program will print out the successive values of the user's number from the list created. 
 
 &nbsp; 
 
-# **WEEKLYTASK05-WEEKDAY.PY**
-### - >For loading built-in and third-party modules, Python provides the import statement (VanderPlas 2016, p. 66)
-### - This program imports the datetime module (Sweigart 2015, p. 341)
-### - This allows python to determine the current date information as date objects <<https://www.w3schools.com/python/python_datetime.asp>>
-### - Printing datetime.datetime.now() outputs a datetime object for thecurrent date and time, according to the computers clock (Sweigart 2015, p. 341)
-### - Selecting the function strftime() will convert the datetime object into a string (Sweigart 2015, p. 344)
-### - Using %A will output the full weekday name as a string (Sweigart 2015, p. 344) <<https://www.w3schools.com/python/trypython.asp?filename=demo_datetime_strftime_a2>> 
-### - This program uses the if and else statements.
-### - If the first statement is true the it will run the code. If it's false it will run the else statment (Sweigart 2015, p. 38, 39)(VanderPlas 2016, p. 40)
-### - This is how the program determines if the current day is a weekend or weekday.  
+### **WEEKDAY.PY**
+#### - This is a description of how I solved week05 task. This program outputs whether or not the cureent day is a weekday.
+#### - The first step I took was creating the variable weekend which contains a list for Saturday and Sunday. I use this variable as part of an if statment. 
+#### - Next I needed to import the datetime module.
+#### - This allows python to determine the current date information as date objects <<https://www.w3schools.com/python/python_datetime.asp>> 
+#### - >For loading built-in and third-party modules, Python provides the import statement (VanderPlas 2016, p. 66)
+#### - I do this by simply typing import datetime. 
+#### - using the statement: datetime.datetime.now() outputs a datetime object for thecurrent date and time, according to the computers clock (Sweigart 2015, p. 341). I assigned this to the variable named x.
+#### - x.strftime(%A) will convert the datetime object into a string (Sweigart 2015, p. 344).
+#### - Using %A will output the full weekday name as a string (Sweigart 2015, p. 344) <<https://www.w3schools.com/python/trypython.asp?filename=demo_datetime_strftime_a2>> 
+#### - So at this point the program has determined what day of the week it currently is and that day is contained in the variable x as a string. 
+#### - Then I have used an if and else statments. As I described in the previous task in week 4, if the first statement is true the it will run the code. If that statement is false it will run the else statement (Sweigart 2015, p. 38, 39)(VanderPlas 2016, p. 40).
+#### - If the current day is not a weekend it will print: "Yes, unfortunately today is a weekday." Otherwise it will print: "It is the weekend, yay!" from the else statement. 
+#### - This is how to determine whether the current day is a weekday or the weekend.  
 
 &nbsp; 
 
-# **WEEKLYTASK06-SQUAREROOT.PY**
-### - > A function is like a mini program (Sweigart 2015, p. 61)
-### - The code of this mini program/function is only executed when called (Sweigart 2015, p. 62)
-### - Functions are used to organise code and make it more readable and resuable (VanderPlas 2016, p. 41)
-### - There are two ways of using functions; def statements and lambda statements (VanderPlas 2016, p. 41)
-### - A def statment is useful for any type of function wheras a lambda statment is used for creating short anomoyous functions (VanderPlas 2016, p. 41)
-### - I have chosen to use a def statement as I want to define and organise my functions so they can be easily accessed and used again (VanderPlas 2016, p. 42)
-### - The variables that are written within a function only exist in that function (Sweigart 2015, p. 67)
-### - This is somehting that casused a bit of trouble when writing this program. Differiencating bwtween global scope vs local scope. Local scope being within a function. 
-### - > Code in global scope cannot use any local variables (Sweigart 2015, p. 67)
-### - In other words a variable within a funcation cannot be called on outside the function. One can only call the function itself. 
-### - > When an expression is used with a return statement, the return value is what the expression evaluates to (Sweigart 2015, p. 64)
-### - In other words you need to think about what you're asking and what the answer would be; the expression/argument and the answer/return value. 
-### - For this program I created my own function for calculating approximation of positive floating-point number's square root. 
-### - I based my code on Newton's formula; √ N ≈ ½(N/A + A) found at <<https://www.school-for-champions.com/algebra/square_root_approx.htm#.YEkLyU5xfIX>>
-### - The idea of Newton's method according to the above website is to use an estaminated guess for A and then repeadedly use the answer in the formula as A until the correct answer is obtained.
-### - In this program I decided to divide the input number by 4 as my educated guess.
-### - I used a while loop to continue the equation until the statement was true in which case the else block comes into effect (VanderPlas 2016, p. 40)(Sweigart 2015, p. 38, 39).  
+### **SQUAREROOT.PY**
+#### - The following is an account of how I unravelled the task for week06. The purpose for this program is to take in a positive floating point number and outputs an approximation of it's square root without using built in functions. 
+#### - > A function is like a mini program (Sweigart 2015, p. 61).
+#### - The code of this mini program/function is only executed when called (Sweigart 2015, p. 62).
+#### - Functions are used to organise code and make it more readable and resuable (VanderPlas 2016, p. 41).
+#### - There are two ways of using functions; def statements and lambda statements (VanderPlas 2016, p. 41).
+#### - A def statment is useful for any type of function wheras a lambda statment is used for creating short anomoyous functions (VanderPlas 2016, p. 41).
+#### - I have chosen to use a def statement as I want to define and organise my functions so they can be easily accessed and used again (VanderPlas 2016, p. 42).
+#### - For this program I created my own function for calculating approximation of positive floating-point number's square root. I called it: newtonSqrt(num).
+#### - The idea of Newton's method according to the above website is to use an estaminated guess for A and then repeadedly use the answer in the formula as A until the correct answer is obtained. <<https://www.math.ubc.ca/~anstee/math104/newtonmethod.pdf>> <<https://www.school-for-champions.com/algebra/square_root_approx.htm#.YEkLyU5xfIX>>
+#### - I based my code on Newton's formula; √ N ≈ ½(N/A + A) found at <<https://www.school-for-champions.com/algebra/square_root_approx.htm#.YEkLyU5xfIX>>
+#### - In this program I decided to divide the input number by 4 as my educated guess.
+#### - It is important to note that the variables that are written within a function only exist in that function (Sweigart 2015, p. 67).
+#### - This is something that casused a bit of trouble when writing this program. Differiencating between global scope vs local scope. Local scope being within a function. 
+#### - > Code in global scope cannot use any local variables (Sweigart 2015, p. 67).
+#### - In other words a variable within a funcation cannot be called on outside the function. One can only call the function itself. 
+#### - I then used a while loop to continue the equation until the statement was true in which case the else block comes into effect (VanderPlas 2016, p. 40)(Sweigart 2015, p. 38, 39).  
+#### - While x is not equal to the user's number it will continue to calculate using the answer as the new estimated guess. 
+#### - > When an expression is used with a return statement, the return value is what the expression evaluates to (Sweigart 2015, p. 64).
+#### - Therefore, I needed to think about what I was asking and what the answer would be; the expression/argument and the answer/return value. 
+#### - I also used the round() function in my return statement in oder to round the answer to 1 decimal place. If I wanted to round to 2 decimal places I would have input a 2 instead of 1.
+#### - The last step in this program is to call the function. The function won't do anything unless it is called <<https://www.w3schools.com/python/python_functions.asp>>
 
 &nbsp; 
 
-# **WEEKLYTASK07-ES.PY**
+# **ES.PY**
 ### - For this task I got the moby-dick text file from <<http://gutenberg.org/ebooks/2701>>
 ### - I have chosen complete this task using a function. I've done this to give me the option to use this function again by importing it into another program.
 ### - The instruction for this task was to call the filename from an argument on the command line. I discovered you need to first import the sys module. <<https://www.pythonforbeginners.com/system/python-sys-argv>>
