@@ -4,7 +4,7 @@
 &nbsp; 
 
 ## **INTRODUCTION**
-#### This file contains details on how I tackled each of the problem-sheet tasks which are part of the Programming and Scripting module required for a Higher Diploma in Data Analysis. There is a description of each of the seven tasks including my thought process, references to my research and my solutions. I have also comprised a full list of references and resources which I used to complete these tasks.
+#### This repository contains details on how I tackled each of the problem-sheet tasks which are part of the Programming and Scripting module required for a Higher Diploma in Data Analysis. There is a description of each of the seven tasks including my thought process, references to my research and my solutions. I have also comprised a full list of references and resources which I used to complete these tasks.
 
 &nbsp; 
 
@@ -18,7 +18,7 @@
 #### - Using 2 asterisks(**) will perform the exponentiation calculation for us (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18).
 #### - In other words, it will raise the height in cm divided by 100 to the power of 2 (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18).
 #### - I used the / symbol for a true division which includes the decimal place or float of a number (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18). 
-#### - Now that the height has been converted into meters squared, we can continue completing the bmi calculation by dividing weight by the newHeight. 
+#### - Now that the height has been converted into meters squared, we can continue completing the bmi calculation by dividing weight by the newheight. 
 #### - Finally, the program prints out a string with the bmi calculation included. 
 #### - When developing this program, I checked that each variable worked correctly as I went along.
 #### - I have left some print statements in this program and have put a hash symbol # before them to remove them from the final code. This was just for my own benefit when developing the code.
@@ -58,7 +58,7 @@
 #### - Using remainder (%) identifies if the number is even or odd. If the remainder is equal to zero/true, then it will run the if statement otherwise it will jump and run the else statement. 
 #### - This program uses math/arithmetic operators to perform the calculations. For example, remainder(%), floor division(//), multiply(*) and add(+) (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18).
 #### - Using append() will add the new values to the pointed list (Sweigart 2015, p. 89) <<https://www.w3schools.com/python/ref_list_append.asp>> 
-#### - This program will add the values from numberFrom to the designated list which is numList using this format: numlist.append(numberFrom).  
+#### - This program will add the values from numberfrom to the designated list which is numlist using this format: numlist.append(numberfrom).  
 #### - Finally, the last step of the program will print out the successive values of the user's number from the list created. 
 
 &nbsp; 
@@ -90,7 +90,7 @@
 #### - There are two ways of using functions; def statements and lambda statements (VanderPlas 2016, p. 41).
 #### - A def statement is useful for any type of function whereas a lambda statement is used for creating short anonymous functions (VanderPlas 2016, p. 41).
 #### - I have chosen to use a def statement as I want to define and organise my functions so they can be easily accessed and used again (VanderPlas 2016, p. 42).
-#### - For this program I created my own function for calculating approximation of positive floating-point number's square root. I called it: newtonSqrt(num).
+#### - For this program I created my own function for calculating approximation of positive floating-point number's square root. I called it: newtonsqrt(num).
 #### - The idea of Newton's method according to the above website is to use an estimated guess for A and then repeatedly use the answer in the formula as A until the correct answer is obtained. <<https://www.math.ubc.ca/~anstee/math104/newtonmethod.pdf>> <<https://www.school-for-champions.com/algebra/square_root_approx.htm#.YEkLyU5xfIX>>
 #### - I based my code on Newton's formula; √ N ≈ ½(N/A + A) found at <<https://www.school-for-champions.com/algebra/square_root_approx.htm#.YEkLyU5xfIX>>
 #### - In this program I decided to divide the input number by 4 as my educated guess.
