@@ -1,5 +1,5 @@
-# **PANDS-PROBLEM-SHEET README.MD**
-## Author: Sarah McNelis  
+## **PANDS-PROBLEM-SHEET README.MD**
+### Author: Sarah McNelis  
 
 &nbsp; 
 
