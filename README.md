@@ -3,25 +3,8 @@
 
 &nbsp; 
 
-## **LIST OF REFERENCES/RESOURCES USED:**
-#### - Sweigart, A 2015, *Automate The Boring Stuff with Python*, William Pollock, San Francisco.
-#### - VanderPlas, J 2016, *A Whirlwind Tour of  Python*, O’Reilly Medica Inc, Sebastopol.
-#### - <<https://www.geeksforgeeks.org/>>
-#### - <<http://gutenberg.org/>>
-#### - <<https://www.kite.com/>> 
-#### - <<https://manybooks.net/>>
-#### - <<https://www.math.ubc.ca/>>
-#### - <<https://matplotlib.org/stable/index.html>>
-#### - <<https://www.pitt.edu/~naraehan/python3/mbb12.html>> 
-#### - <<https://www.pythonforbeginners.com/>>
-#### - <<https://www.python.org/>>
-#### - <<https://www.pythontutorial.net/>> 
-#### - <<https://realpython.com/>>
-#### - <<https://www.school-for-champions.com/default.htm#.YFuLr9JxfIU>>
-#### - <<https://stackoverflow.com/>>
-#### - <<https://www.tutorialexample.com/>> 
-#### - <<https://www.w3schools.com/default.asp>>
-#### - <<https://www.w3.org/>> 
+## **INTRODUCTION**
+#### This file contains details of how I tackled each of the problem-sheet tasks which are part of the Programming and Scripting module required for a Higher Diploma in Data Analysis. There is a description for each of the seven tasks including my thought process, references to my research, and my solutions. I have also included a full list of references and resources which I used to complete these tasks. 
 
 &nbsp; 
 
@@ -168,3 +151,25 @@
 #### - Following this I decided to put a legend on the plot. After a bit more exploration I found this website which give a substantial amount of detail regarding the parameters around legends <<https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html>>. It was here I discovered how to position a legend and adjust the font size, color and other parameters.
 #### - All of this is completed using the format plt.plot(x, y), plt.xlabel, plt.legend, plt.title and so on. This can be found on w3schools: <<https://www.w3schools.com/python/matplotlib_plotting.asp>>
 #### - Finally, the program shows the plot I have created. There is a line of code at the end of this program which would save the plot to a png file but you can either show a plot or save it but you cannot do both so I have commented it out of my code for the purpose of this task  <<https://www.geeksforgeeks.org/how-to-save-a-plot-to-a-file-using-matplotlib/>>. 
+
+&nbsp; 
+
+## **LIST OF REFERENCES/RESOURCES USED:**
+#### - Sweigart, A 2015, *Automate The Boring Stuff with Python*, William Pollock, San Francisco.
+#### - VanderPlas, J 2016, *A Whirlwind Tour of  Python*, O’Reilly Medica Inc, Sebastopol.
+#### - <<https://www.geeksforgeeks.org/>>
+#### - <<http://gutenberg.org/>>
+#### - <<https://www.kite.com/>> 
+#### - <<https://manybooks.net/>>
+#### - <<https://www.math.ubc.ca/>>
+#### - <<https://matplotlib.org/stable/index.html>>
+#### - <<https://www.pitt.edu/~naraehan/python3/mbb12.html>> 
+#### - <<https://www.pythonforbeginners.com/>>
+#### - <<https://www.python.org/>>
+#### - <<https://www.pythontutorial.net/>> 
+#### - <<https://realpython.com/>>
+#### - <<https://www.school-for-champions.com/default.htm#.YFuLr9JxfIU>>
+#### - <<https://stackoverflow.com/>>
+#### - <<https://www.tutorialexample.com/>> 
+#### - <<https://www.w3schools.com/default.asp>>
+#### - <<https://www.w3.org/>> 
