@@ -51,7 +51,7 @@
 #### - To get the successive values I created a list and added the numbers to that list. I do this by using a Boolean expression to determine if the number is even or odd.
 #### - A Boolean is a data type which only has two values true and false. (Sweigart 2015, p. 32)(VanderPlas 2016, p. 29) <<https://realpython.com/python-boolean/>> <<https://www.w3schools.com/python/python_booleans.asp>>
 #### - #### - The while statement will run as long as the while statement's condition is true (Sweigart 2015, p. 45)
-#### - Therefore, by adding the statement 'while numberFrom != 1:' the loop will stop or be considered false once the number reaches 1.
+#### - Therefore, by adding the statement 'while numberfrom != 1:' the loop will stop or be considered false once the number reaches 1.
 #### - This program uses comparison operators such as not equal to (!=) which gives one of the Boolean values true and false (VanderPlas 2016, p. 20, 21)(Sweigart 2015, p. 33).
 #### - The block following an if statement will run if the statement is true (Sweigart 2015, p. 38).
 #### - The else block only runs if all the if and elif statements are false (VanderPlas 2016, p. 40)(Sweigart 2015, p. 39).
