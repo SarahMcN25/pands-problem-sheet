@@ -1,10 +1,10 @@
-## **PANDS-PROBLEM-SHEET README.MD**
-### Author: Sarah McNelis  
+# **PANDS-PROBLEM-SHEET README.MD**
+## Author: Sarah McNelis  
 
 &nbsp; 
 
 ## **INTRODUCTION**
-#### This file contains details on how I tackled each of the problem-sheet tasks which are part of the Programming and Scripting module required for a Higher Diploma in Data Analysis. There is a description of each of the seven tasks including my thought process, references to my research and my solutions. I have also comprised a full list of references and resources which I used to complete these tasks.
+### This file contains details on how I tackled each of the problem-sheet tasks which are part of the Programming and Scripting module required for a Higher Diploma in Data Analysis. There is a description of each of the seven tasks including my thought process, references to my research and my solutions. I have also comprised a full list of references and resources which I used to complete these tasks.
 
 &nbsp; 
 
