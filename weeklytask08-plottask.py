@@ -1,13 +1,13 @@
 # This program displays a plot of the functions: f(x)=x, g(x)=x² and h(x)=x³,
-# in range [0, 4], on one set of axes
+# in range [0, 4], on one set of axes.
 # Author: Sarah McNelis
 
 import numpy as np #for arrays
 import matplotlib.pyplot as plt #for plotting
 
-xpoints = np.array(range(0,4)) #range will show on xaxis 0-3
+xpoints = np.array(range(0,5)) #range will show on xaxis 0-4
 ypoints1 = xpoints #f(x)=x
-ypoints2 = xpoints * xpoints #g(x)=x²
+ypoints2 = xpoints * xpoints #g(x)=x²   
 ypoints3 = ypoints2 * xpoints #h(x)=x³
 
 font1 = {'family':'times new roman','color':'tab:red','size':30, 'weight':'bold', 'style':'oblique'}

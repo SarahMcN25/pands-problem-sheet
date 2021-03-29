@@ -5,21 +5,14 @@
 
 num = float(input("Please enter a positive number: "))
 
-# make own function here using 
+# make own function here using: 
 # newton's formula: √ N ≈ ½(N/A + A)
 def newtonsqrt(num):
-    a = (num/4) 
-    # newton's method includes making an educated guess of what a is
-    # decided to divide the input number by 4
-    sqroot = (((num / a) + a) / 2)
-    x = sqroot * sqroot
-    while x != num:
-        sqroot2 = (((num / sqroot) + sqroot) /2)
-        return round(sqroot2, 1)
-    else:
-        return round(sqroot, 1)
-# used while loop so that it will continue to calculate the est square root
-# until the square root multiplied by itself is equal to input num
+    guess = num #using input number as the first guess
+    for i in range(10): #for loop to create iteration
+        newguess = (((num / guess) + guess) / 2) 
+        guess = newguess #will loop again using newguess as guess giving a different newguess
+    return round(newguess, 1) #return breaks the for loop
 
 var = newtonsqrt(num)
 print ("The square root of {} is approx. {}.".format(num, var))

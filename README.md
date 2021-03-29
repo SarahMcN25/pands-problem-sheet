@@ -93,15 +93,15 @@
 #### - For this program I created my own function for calculating approximation of positive floating-point number's square root. I called it: newtonsqrt(num).
 #### - The idea of Newton's method according to the above website is to use an estimated guess for A and then repeatedly use the answer in the formula as A until the correct answer is obtained. <<https://www.math.ubc.ca/~anstee/math104/newtonmethod.pdf>> <<https://www.school-for-champions.com/algebra/square_root_approx.htm#.YEkLyU5xfIX>>
 #### - I based my code on Newton's formula; √ N ≈ ½(N/A + A) found at <<https://www.school-for-champions.com/algebra/square_root_approx.htm#.YEkLyU5xfIX>>
-#### - In this program I decided to divide the input number by 4 as my educated guess.
+#### - In this program I decided to use the input number as the first guess.
 #### - It is important to note that the variables that are written within a function only exist in that function (Sweigart 2015, p. 67).
 #### - This is something that caused a bit of trouble when writing this program. Differentiating between global scope vs local scope. Local scope being within a function. 
 #### - > Code in global scope cannot use any local variables (Sweigart 2015, p. 67).
 #### - In other words, a variable within a function cannot be called on outside the function. One can only call the function itself. 
-#### - I then used a while loop to continue the equation until the statement was true in which case the else block comes into effect (VanderPlas 2016, p. 40)(Sweigart 2015, p. 38, 39).  
-#### - While x is not equal to the user's number it will continue to calculate using the answer as the new estimated guess. 
-#### - > When an expression is used with a return statement, the return value is what the expression evaluates to (Sweigart 2015, p. 64).
-#### - Therefore, I needed to think about what I was asking and what the answer would be; the expression/argument and the answer/return value. 
+#### - I have used a for loop to create guess iteration. 
+#### - w3schools explains >The for loop actually creates an iterator object and the next() method for each loop <<https://www.w3schools.com/python/python_iterators.asp>>.
+#### - In this program I have chosen a range of 10. This means the for loop in this function will run the code in a loop 10 times before returning the estimated guess <<https://www.w3schools.com/python/python_for_loops.asp>> <<https://www.goeduhub.com/3398/python-program-to-find-the-square-root-number-newtons-method>>.
+#### - > When an expression is used with a return statement, the return value is what the expression evaluates to (Sweigart 2015, p. 64). In other words the return statement breaks the loop.
 #### - I also used the round() function in my return statement in order to round the answer to 1 decimal place. If I wanted to round to 2 decimal places, I would have input a 2 instead of 1.
 #### - The last step in this program is to call the function. The function will not do anything unless it is called <<https://www.w3schools.com/python/python_functions.asp>>.
 
@@ -158,6 +158,7 @@
 #### - Sweigart, A 2015, *Automate The Boring Stuff with Python*, William Pollock, San Francisco.
 #### - VanderPlas, J 2016, *A Whirlwind Tour of  Python*, O’Reilly Medica Inc, Sebastopol.
 #### - <<https://www.geeksforgeeks.org/>>
+#### - <<https://www.goeduhub.com/>>
 #### - <<http://gutenberg.org/>>
 #### - <<https://www.kite.com/>> 
 #### - <<https://manybooks.net/>>
