@@ -9,7 +9,7 @@ today = x.strftime("%A")
 # strftime converts into a string
 # %A access the actual word of which day it is
 
-if today == weekend:
+if today == 'Saturday' or 'Sunday':
     print("It is the weekend, yay!")
 else:
     print("Yes, unfortunately today is a weekday.")
