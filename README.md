@@ -1,10 +1,8 @@
-<style>body {text-align: justify}</style> 
-
-
-### **PANDS-PROBLEM-SHEET TASKS**
-Author: Sarah McNelis  
+## **PANDS-PROBLEM-SHEET TASKS**
+### Author: Sarah McNelis  
 
 &nbsp; 
+<style>body {text-align: justify}</style> 
 
 ### **INTRODUCTION**
 This repository contains details on how I tackled each of the problem-sheet tasks which are part of the Programming and Scripting module required for a Higher Diploma in Data Analysis. There is a description of each of the seven tasks including my thought process, references to my research and my solutions. I have also comprised a full list of references and resources which I used to complete these tasks.
@@ -16,7 +14,7 @@ This is my solution to week02 task. The aim of this program is to calculates a p
 
 &nbsp; 
 
-## **SECONDSTRING.PY**
+### **SECONDSTRING.PY**
 #### - This is my explanation for week03 task. 
 #### - This program takes in a string and outputs that string every second letter in reverse order. 
 #### - The first step of this program asks the user to input a sentence. 
