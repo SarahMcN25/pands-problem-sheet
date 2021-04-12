@@ -11,7 +11,7 @@ height = float(input("Enter height(cm):"))
 newheight = ((height/100)**2)
 #print (newHeight)
 
-bmi = (weight/newheight)
+bmi = round(weight/newheight, 2) # round to 2 decimal places
 #print (bmi) 
 
 print ("BMI is: {}".format(bmi))

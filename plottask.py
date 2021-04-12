@@ -5,7 +5,7 @@
 import numpy as np #for arrays
 import matplotlib.pyplot as plt #for plotting
 
-xpoints = np.array(range(0,5)) #range will show on xaxis 0-4
+xpoints = np.array(range(0,5)) #range will show on x-axis 0-4
 ypoints1 = xpoints #f(x)=x
 ypoints2 = xpoints * xpoints #g(x)=x²   
 ypoints3 = ypoints2 * xpoints #h(x)=x³
