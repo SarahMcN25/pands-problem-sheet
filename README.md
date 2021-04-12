@@ -1,13 +1,9 @@
 ## **PANDS-PROBLEM-SHEET TASKS**
 ### Author: Sarah McNelis  
-
 &nbsp; 
-
 ### **INTRODUCTION**
 This repository contains details on how I tackled each of the problem-sheet tasks which are part of the Programming and Scripting module required for a Higher Diploma in Data Analysis. There is a description of each of the seven tasks including my thought process, references to my research and my solutions. I have also comprised a full list of references and resources which I used to complete these tasks.
-
 &nbsp; 
-
 ### **BMI.PY**
 This is my solution to week02 task. The aim of this program is to calculates a person's body mass index. In this program I surround my string with single or double quotes to differentiate where a string begins and ends (Sweigart 2015, p. 17). I put the question I wanted to be asked of the user within the quote marks. This is what will appear in the terminal. It is important to use float() instead of int() in this program. This allows for a decimal place in the answer which gives a more accurate final calculation (VanderPlas 2016, p. 25). Next I convert the height from cm into meters squared. I do this by dividing the height by 100 and using exponentiation. Using 2 asterisks will perform the exponentiation calculation (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18). In other words, it will raise the height in cm divided by 100 to the power of 2 (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18). I used the / symbol for a true division which includes the decimal place or float of a number (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18). Now that the height has been converted into meters squared, the program continues completing the bmi calculation by dividing weight by the newheight. I have added the round function here in order to round the answer to 2 decimal places <<https://www.w3schools.com/python/ref_func_round.asp>>. Finally, the program prints out a string with the bmi calculation included. When developing this program, I checked that each variable worked correctly as I went along. I have left some print statements in this program and have put a hash symbol before them to remove them from the final code. This was just for my own benefit to help with debugging when developing the code. This process is known as commenting out code (Sweigart 2015, p. 23).  
 
