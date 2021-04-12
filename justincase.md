@@ -1,22 +1,59 @@
-## **PANDS-PROBLEM-SHEET TASKS**
-Author: Sarah McNelis
 &nbsp; 
-### **INTRODUCTION**
-This repository contains details on how I tackled each of the problem-sheet tasks which are part of the Programming and Scripting module required for a Higher Diploma in Data Analysis. There is a description of each of the seven tasks including my thought process, references to my research and my solutions. I have also comprised a full list of references and resources which I used to complete these tasks.
-&nbsp; 
-### **BMI.PY**
-This is my solution to week02 task. The aim of this program is to calculates a person's body mass index. In this program I surround my string with single or double quotes to differentiate where a string begins and ends (Sweigart 2015, p. 17). I put the question I wanted to be asked of the user within the quote marks. This is what will appear in the terminal. It is important to use float() instead of int() in this program. This allows for a decimal place in the answer which gives a more accurate final calculation (VanderPlas 2016, p. 25). Next I convert the height from cm into meters squared. I do this by dividing the height by 100 and using exponentiation. Using 2 asterisks will perform the exponentiation calculation (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18). In other words, it will raise the height in cm divided by 100 to the power of 2 (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18). I used the / symbol for a true division which includes the decimal place or float of a number (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18). Now that the height has been converted into meters squared, the program continues completing the bmi calculation by dividing weight by the newheight. I have added the round function here in order to round the answer to 2 decimal places <<https://www.w3schools.com/python/ref_func_round.asp>>. Finally, the program prints out a string with the bmi calculation included. When developing this program, I checked that each variable worked correctly as I went along. I have left some print statements in this program and have put a hash symbol before them to remove them from the final code. This was just for my own benefit to help with debugging when developing the code. This process is known as commenting out code (Sweigart 2015, p. 23).  
-&nbsp; 
+
 ### **SECONDSTRING.PY**
-This is my explanation for week03 task. This program takes in a string and outputs that string every second letter in reverse order. The first step of this program asks the user to input a sentence. The next line of code is how the program outputs the sentence every second letter backwards. > Slicing is a means of accessing multiple values in sublists (VanderPlas 2016, p. 33). > It uses a colon to indicate the start point (inclusive) and end point (non-inclusive) of the subarray (VanderPlas 2016, p. 33). Slicing outputs a new string by using parts of the old string (Sweigart 2015, p. 94). This website has a good tutorial on slicing. <<https://www.w3schools.com/python/python_strings_slicing.asp>>. Getting every second letter from the sentence involves indexing. Indexing is a means of getting a single value from the list (VanderPlas 2016, p. 33). > A list is a value that contains multiple values in an ordered sequence (Sweigart 2015, p. 80). Python uses zero based indexing therefore the first value in the list is 0 and so on (Sweigart 2015, p. 80)(VanderPlas 2016, p. 32). > Elements at the end of the list can be accessed with negative numbers, starting from -1 (VanderPlas 2016, p. 32) <<https://realpython.com/lessons/indexing-and-slicing/>>. This is what I used in this program to output the sentence in reverse order. I do this by using -2 for every second element backwards. Using the format; [::-2] means it will show me the full string every second value backwards. 
+#### - This is my explanation for week03 task. 
+#### - This program takes in a string and outputs that string every second letter in reverse order. 
+#### - The first step of this program asks the user to input a sentence. 
+#### - The next line of code is how the program outputs the sentence every second letter backwards.
+#### - > Slicing is a means of accessing multiple values in sublists (VanderPlas 2016, p. 33) 
+#### - > It uses a colon to indicate the start point (inclusive) and end point (non-inclusive) of the subarray (VanderPlas 2016, p. 33)
+#### - Slicing outputs a new string by using parts of the old string (Sweigart 2015, p. 94). 
+#### - This website has a good tutorial on slicing. <<https://www.w3schools.com/python/python_strings_slicing.asp>> 
+#### - Getting every second letter from the sentence involves indexing.
+#### - Indexing is a means of getting a single value from the list (VanderPlas 2016, p. 33).
+#### - > A list is a value that contains multiple values in an ordered sequence (Sweigart 2015, p. 80).
+#### - Python uses zero based indexing therefore the first value in the list is 0 and so on (Sweigart 2015, p. 80)(VanderPlas 2016, p. 32).
+#### - > Elements at the end of the list can be accessed with negative numbers, starting from -1 (VanderPlas 2016, p. 32). <<https://realpython.com/lessons/indexing-and-slicing/>>
+#### - This is what I used in this program to output the sentence in reverse order. I do this by using -2 for every second element backwards. 
+#### - Using the format; [::-2] means it will show me the full string every second value backwards. 
+
 &nbsp; 
-### **COLLATZ.PY**
-This is how I responded to week04 task. This program asks the user to input any positive integer. Then outputs the successive values of the following: if it is an even number it is divided my two or if it is an odd number it is multiplied by three plus one. To get the successive values I created a list and added the numbers to that list. I do this by using a Boolean expression to determine if the number is even or odd. A Boolean is a data type which only has two values true and false (Sweigart 2015, p. 32)(VanderPlas 2016, p. 29) <<https://realpython.com/python-boolean/>> <<https://www.w3schools.com/python/python_booleans.asp>>. The while statement will run as long as the while statement's condition is true (Sweigart 2015, p. 45). Therefore, by adding the statement 'while numberfrom != 1:' the loop will stop or be considered false once the number reaches 1. This program uses comparison operators such as not equal to (!=) which gives one of the Boolean values true and false (VanderPlas 2016, p. 20, 21)(Sweigart 2015, p. 33). The block following an if statement will run if the statement is true (Sweigart 2015, p. 38). The else block only runs if all the if and elif statements are false (VanderPlas 2016, p. 40)(Sweigart 2015, p. 39). Using remainder (%) identifies if the number is even or odd. If the remainder is equal to zero or true, then it will run the if statement otherwise it will jump and run the else statement. This program uses math/arithmetic operators to perform the calculations. For example, remainder(%), floor division(//), multiply(*) and add(+) (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18). Using append() will add the new values to the pointed list (Sweigart 2015, p. 89) <<https://www.w3schools.com/python/ref_list_append.asp>>. This program will add the values from numberfrom to the designated list which is numlist using this format: numlist.append(numberfrom). Finally, the last step of the program will print out the successive values of the user's number from the list created. 
+
+## **COLLATZ.PY**
+#### - This is how I responded to week04 task. 
+#### - This program asks the user to input any positive integer. Then outputs the successive values of the following: if it is an even number it is divided my two or if it is an odd number it is multiplied by three plus one.
+#### - To get the successive values I created a list and added the numbers to that list. I do this by using a Boolean expression to determine if the number is even or odd.
+#### - A Boolean is a data type which only has two values true and false. (Sweigart 2015, p. 32)(VanderPlas 2016, p. 29) <<https://realpython.com/python-boolean/>> <<https://www.w3schools.com/python/python_booleans.asp>>
+#### - #### - The while statement will run as long as the while statement's condition is true (Sweigart 2015, p. 45)
+#### - Therefore, by adding the statement 'while numberfrom != 1:' the loop will stop or be considered false once the number reaches 1.
+#### - This program uses comparison operators such as not equal to (!=) which gives one of the Boolean values true and false (VanderPlas 2016, p. 20, 21)(Sweigart 2015, p. 33).
+#### - The block following an if statement will run if the statement is true (Sweigart 2015, p. 38).
+#### - The else block only runs if all the if and elif statements are false (VanderPlas 2016, p. 40)(Sweigart 2015, p. 39).
+#### - Using remainder (%) identifies if the number is even or odd. If the remainder is equal to zero or true, then it will run the if statement otherwise it will jump and run the else statement. 
+#### - This program uses math/arithmetic operators to perform the calculations. For example, remainder(%), floor division(//), multiply(*) and add(+) (Sweigart 2015, p. 15)(VanderPlas 2016, p. 18).
+#### - Using append() will add the new values to the pointed list (Sweigart 2015, p. 89) <<https://www.w3schools.com/python/ref_list_append.asp>> 
+#### - This program will add the values from numberfrom to the designated list which is numlist using this format: numlist.append(numberfrom).  
+#### - Finally, the last step of the program will print out the successive values of the user's number from the list created. 
+
 &nbsp; 
-### **WEEKDAY.PY**
-This is a description of how I solved week05 task. The goal of this program is tp output whether the current day is a weekday or not. The first step I took was importing the datetime module. This allows python to determine the current date information as date objects <<https://www.w3schools.com/python/python_datetime.asp>>. >For loading built-in and third-party modules, Python provides the import statement (VanderPlas 2016, p. 66). Using the statement: datetime.datetime.now() outputs a datetime object for the current date and time, according to the computers clock (Sweigart 2015, p. 341). I assigned this to the variable named x. Using x.strftime(%A) will convert the datetime object into a string (Sweigart 2015, p. 344). Using %A will output the full weekday name as a string (Sweigart 2015, p. 344) <<https://www.w3schools.com/python/trypython.asp?filename=demo_datetime_strftime_a2>>. So, at this point the program has determined what day of the week it currently is, and that day is contained in the variable x as a string. Then I have used if, elif and else statements. As I described in the previous task in week 4, if the first statement is true then it will run the code. If that statement is false it will run the elif statement. Then if that statement is false it will run the else statement (Sweigart 2015, p. 38, 39)(VanderPlas 2016, p. 40). If the current day is not a weekend it will print: "Yes, unfortunately today is a weekday.". Otherwise, it will print: "It is the weekend, yay!" from the else statement. This is how to determine whether the current day is a weekday or the weekend.  
+
+## **WEEKDAY.PY**
+#### - This is a description of how I solved week05 task. 
+#### - This program outputs whether the current day is a weekday or not.
+#### - The first step I took was importing the datetime module.
+#### - This allows python to determine the current date information as date objects <<https://www.w3schools.com/python/python_datetime.asp>> 
+#### - >For loading built-in and third-party modules, Python provides the import statement (VanderPlas 2016, p. 66)
+#### - Using the statement: datetime.datetime.now() outputs a datetime object for the current date and time, according to the computers clock (Sweigart 2015, p. 341). I assigned this to the variable named x.
+#### - x.strftime(%A) will convert the datetime object into a string (Sweigart 2015, p. 344).
+#### - Using %A will output the full weekday name as a string (Sweigart 2015, p. 344) <<https://www.w3schools.com/python/trypython.asp?filename=demo_datetime_strftime_a2>> 
+#### - So, at this point the program has determined what day of the week it currently is, and that day is contained in the variable x as a string. 
+#### - Then I have used if, elif and else statements. As I described in the previous task in week 4, if the first statement is true then it will run the code. If that statement is false it will run the elif statement. Then if that statement is false it will run the else statement (Sweigart 2015, p. 38, 39)(VanderPlas 2016, p. 40).
+#### - If the current day is not a weekend it will print: "Yes, unfortunately today is a weekday.". Otherwise, it will print: "It is the weekend, yay!" from the else statement. 
+#### - This is how to determine whether the current day is a weekday or the weekend.  
+
 &nbsp; 
-### **SQUAREROOT.PY**
+
+## **SQUAREROOT.PY**
 #### - The following is an account of how I unravelled the task for week06. 
 #### - This program takes in a positive floating-point number and outputs an approximation of its square root without using built in functions. 
 #### - > A function is like a mini program (Sweigart 2015, p. 61).
